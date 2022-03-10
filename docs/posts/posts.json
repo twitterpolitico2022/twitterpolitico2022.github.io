@@ -1,0 +1,27 @@
+[
+  {
+    "path": "posts/welcome/",
+    "title": "Bem-vindos ao Twitter Politico",
+    "description": "Um blog para acompanhar o cenârio político brasileiro nas eleições presidenciais 2022 através do twitter e o análise de dados.",
+    "author": [
+      {
+        "name": "Marcelo Casteñeda",
+        "url": "https://example.com/norajones"
+      },
+      {
+        "name": "Alessandra Maia",
+        "url": "https://example.com/norajones"
+      },
+      {
+        "name": "Carlos Trucíos",
+        "url": "https://ctruciosm.github.io/"
+      }
+    ],
+    "date": "2022-03-10",
+    "categories": [],
+    "contents": "\n\n\n\n",
+    "preview": {},
+    "last_modified": "2022-03-10T08:05:46-03:00",
+    "input_file": "welcome.knit.md"
+  }
+]
