@@ -1,11 +1,11 @@
-name: "."
+name: "Twitter Politico"
 title: "Twitter Politico"
 description: |
-  Twitter Politico
+  Um blog para acompanhar o cenârio político brasileiro nas eleições presidenciais 2022 através do twitter e o análise de dados.
 output_dir: "docs"
 navbar:
   right:
-    - text: "Home"
+    - text: "Posts"
       href: index.html
     - text: "About"
       href: about.html
