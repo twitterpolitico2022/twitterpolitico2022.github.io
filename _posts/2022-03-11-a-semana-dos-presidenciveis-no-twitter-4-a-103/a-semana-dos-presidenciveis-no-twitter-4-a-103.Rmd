@@ -43,7 +43,7 @@ Cabe primeiro ressaltar a assimetria entre o número de seguidores no Twitter po
 Abaixo apresentamos um gráfico com o número de tuites da timeline dos candidatos, dentre os cinco que fizeram parte de nosso levantamento: Bolsonaro, Ciro, Moro, Lula e Dória, de acordo com a frequência com que os candidatos tuitaram na última semana.
 
 <center>
-```{r echo = FALSE, out.width = "70%"}
+```{r echo = FALSE, out.width = "85%"}
 knitr::include_graphics("Tweets_per_candidato_2022-03-04_2022-03-10.png")
 ```
 </center>
@@ -54,7 +54,7 @@ knitr::include_graphics("Tweets_per_candidato_2022-03-04_2022-03-10.png")
 Na sequência apresentamos em ordem decrescente (do mais citado ao menos citado), o total de tuites que mencionaram o nome de cada candidato pesquisado durante a última semana: Bolsonaro, Moro, Lula, Ciro e Dória.
 
 <center>
-```{r echo = FALSE, out.width = "70%"}
+```{r echo = FALSE, out.width = "85%"}
 knitr::include_graphics("Tweets_candidatos_2022-03-04_2022-03-10.png")
 ```
 </center>
