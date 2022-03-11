@@ -8,9 +8,12 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-O `Twitter Político` é um projeto acadêmico do grupo de pesquisa [BDAQ (Big Data e Análise Quantitativa)](http://dgp.cnpq.br/dgp/espelhogrupo/764775), é liderado pelo Prof. Marcelo Castañeda (UFRJ) e conta com a colaboração dos professores Alessandra Maia (PUC-RJ) e Carlos Trucíos (UFRJ).
+O `Twitter Político` é um projeto acadêmico do grupo de pesquisa [**BDAQ (Big Data e Análise Quantitativa)**](http://dgp.cnpq.br/dgp/espelhogrupo/764775). O projeto é liderado pelo Prof. Marcelo Castañeda (UFRJ), conta com a colaboração dos professores Alessandra Maia (PUC-RJ) e Carlos Trucíos (UFRJ), bem como com a participação de diversos alunos.
 
-Através dos `tweets` dos candidatos à corrida presidencial brasileira e dos usuários do `twitter`, utilizamos ferramentas de mineração de texto para entender .....
+Através dos `tweets` dos candidatos à corrida presidencial brasileira e dos usuários do `twitter`, utilizamos ferramentas de mineração de texto para entender ..... 
+
+> O projeto não é financiado por nenhuma instituição seja pública ou privada, as análises e resultados obtidos através do projeto não representam a opinião das instituições acadêmicas envolvidas. Nenhum dos pesquisadores e alunos manifesta o apoio político-partidário a algum candidato através das publicações deste blog.
+
 
 
 ## Pesquisadores

@@ -1,5 +1,5 @@
 ---
-title: "Bem-vindos ao Twitter Politico"
+title: "Bem-vindos ao Twitter Político"
 description: |
   Um blog para acompanhar o cenârio político brasileiro nas eleições presidenciais 2022 através do twitter e o análise de dados.
 author:

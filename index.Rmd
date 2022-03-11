@@ -1,5 +1,5 @@
 ---
-title: "Twitter Politico"
+title: "Twitter Político"
 site: distill::distill_website
 listing: posts
 ---

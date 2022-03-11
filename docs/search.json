@@ -2,18 +2,18 @@
   "articles": [
     {
       "path": "index.html",
-      "title": "Twitter Politico",
+      "title": "Twitter Político",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2022-03-11T09:37:58-03:00"
+      "last_modified": "2022-03-11T10:01:58-03:00"
     },
     {
       "path": "sobre.html",
       "title": "O Twitter Político",
       "description": "Um projeto acadêmico para monitorar a tecnopolítica no twitter no âmbito das eleições presidenciais brasileiras 2022.",
       "author": [],
-      "contents": "\nO Twitter Político é um projeto acadêmico do grupo de pesquisa BDAQ (Big Data e Análise Quantitativa), é liderado pelo Prof. Marcelo Castañeda (UFRJ) e conta com a colaboração dos professores Alessandra Maia (PUC-RJ) e Carlos Trucíos (UFRJ).\nAtravés dos tweets dos candidatos à corrida presidencial brasileira e dos usuários do twitter, utilizamos ferramentas de mineração de texto para entender …..\nPesquisadores\nProf. Marcelo Casteñeda (UFRJ): Short Bio + Foto\nProfa. Alessandra Maia (PUC-RJ): Short Bio + Foto\nProf. Carlos Trucíos (UFRJ): Short Bio + Foto\nAlunos\nAluno 1: Short Bio + Foto\nAluno 2: Short Bio + Foto\nAluno 3: Short Bio + Foto\nAluno 4: Short Bio + Foto\nAluno 5: Short Bio + Foto\n\n\n\n",
-      "last_modified": "2022-03-11T09:38:00-03:00"
+      "contents": "\nO Twitter Político é um projeto acadêmico do grupo de pesquisa BDAQ (Big Data e Análise Quantitativa). O projeto é liderado pelo Prof. Marcelo Castañeda (UFRJ), conta com a colaboração dos professores Alessandra Maia (PUC-RJ) e Carlos Trucíos (UFRJ), bem como com a participação de diversos alunos.\nAtravés dos tweets dos candidatos à corrida presidencial brasileira e dos usuários do twitter, utilizamos ferramentas de mineração de texto para entender …..\n\nO projeto não é financiado por nenhuma instituição seja pública ou privada, as análises e resultados obtidos através do projeto não representam a opinião das instituições acadêmicas envolvidas. Nenhum dos pesquisadores e alunos manifesta o apoio político-partidário a algum candidato através das publicações deste blog.\n\nPesquisadores\nProf. Marcelo Casteñeda (UFRJ): Short Bio + Foto\nProfa. Alessandra Maia (PUC-RJ): Short Bio + Foto\nProf. Carlos Trucíos (UFRJ): Short Bio + Foto\nAlunos\nAluno 1: Short Bio + Foto\nAluno 2: Short Bio + Foto\nAluno 3: Short Bio + Foto\nAluno 4: Short Bio + Foto\nAluno 5: Short Bio + Foto\n\n\n\n",
+      "last_modified": "2022-03-11T10:02:00-03:00"
     }
   ],
   "collections": ["posts/posts.json"]
