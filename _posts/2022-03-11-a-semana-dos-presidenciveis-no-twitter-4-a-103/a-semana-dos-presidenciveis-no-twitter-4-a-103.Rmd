@@ -30,7 +30,7 @@ Para cada candidato, foram coletados tuites referentes aos últimos 7 dias (da s
 
 ## Contexto geral
 
-Cabe primeiro ressaltar a assimetria entre o número de seguidores no Twitter por candidato pesquisado nessa última semana, o que vai influenciar sobremaneira a análise dos dados.
+Cabe primeiro ressaltar a disparidade entre o número de seguidores no Twitter por candidato pesquisado nessa última semana, o que vai influenciar sobremaneira a análise dos dados.
 
 - Bolsonaro - 7,4 milhões
 - Moro - 3,3 milhões
@@ -51,7 +51,14 @@ knitr::include_graphics("Tweets_per_candidato_2022-03-04_2022-03-10.png")
 
 ## Tuites sobre os candidatos
 
+
+
+
 Na sequência apresentamos em ordem decrescente (do mais citado ao menos citado), o total de tuites que mencionaram o nome de cada candidato pesquisado durante a última semana: Bolsonaro, Moro, Lula, Ciro e Dória.
+
+<aside>
+Para coletar os tuites mencionando os respectivos candidatos, foram utilizados como critério de busca as palavras "Bolsonaro", "Ciro", "Doria", "Lula" e "Moro".
+</aside>
 
 <center>
 ```{r echo = FALSE, out.width = "85%"}
@@ -60,11 +67,13 @@ knitr::include_graphics("Tweets_candidatos_2022-03-04_2022-03-10.png")
 </center>
 
 
+
+
+Por fim, apresentamos abaixo cinco nuvens de palavras, onde cada uma corresponde a um candidato, é importante sinalizar que o nome de cada candidato foi retirado da sua própria nuvem para melhor visualização das palavras a ele associadas. Cabe ressaltar também, que cada nuvem reflete as 100 palavras mais relevantes associadas, excluídas stop words,  a cada candidato nas interações dos usuários do Twitter na última semana.
+
 <aside>
 Uma nuvem de palavras é uma representação gráfica das palavras mais frequentes dentro de um texto ou conjunto de textos. 
 </aside>
-
-Por fim, apresentamos abaixo cinco nuvens de palavras, onde cada uma corresponde a um candidato, é importante sinalizar que o nome de cada candidato foi retirado da sua própria nuvem para melhor visualização das palavras a ele associadas. Cabe ressaltar também, que cada nuvem reflete as 100 palavras mais relevantes associadas, excluídas stop words,  a cada candidato nas interações dos usuários do Twitter na última semana.
 
 > Clique no nome do candidato para ver a respectiva nuvem de palavras.
 
