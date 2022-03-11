@@ -3,9 +3,10 @@
     {
       "path": "index.html",
       "title": "Twitter Político",
+      "description": "Um blog para acompanhar o cenârio político brasileiro nas eleições presidenciais 2022 através do twitter e do análise de dados.\n",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2022-03-11T10:01:58-03:00"
+      "last_modified": "2022-03-11T10:04:52-03:00"
     },
     {
       "path": "sobre.html",
@@ -13,7 +14,7 @@
       "description": "Um projeto acadêmico para monitorar a tecnopolítica no twitter no âmbito das eleições presidenciais brasileiras 2022.",
       "author": [],
       "contents": "\nO Twitter Político é um projeto acadêmico do grupo de pesquisa BDAQ (Big Data e Análise Quantitativa). O projeto é liderado pelo Prof. Marcelo Castañeda (UFRJ), conta com a colaboração dos professores Alessandra Maia (PUC-RJ) e Carlos Trucíos (UFRJ), bem como com a participação de diversos alunos.\nAtravés dos tweets dos candidatos à corrida presidencial brasileira e dos usuários do twitter, utilizamos ferramentas de mineração de texto para entender …..\n\nO projeto não é financiado por nenhuma instituição seja pública ou privada, as análises e resultados obtidos através do projeto não representam a opinião das instituições acadêmicas envolvidas. Nenhum dos pesquisadores e alunos manifesta o apoio político-partidário a algum candidato através das publicações deste blog.\n\nPesquisadores\nProf. Marcelo Casteñeda (UFRJ): Short Bio + Foto\nProfa. Alessandra Maia (PUC-RJ): Short Bio + Foto\nProf. Carlos Trucíos (UFRJ): Short Bio + Foto\nAlunos\nAluno 1: Short Bio + Foto\nAluno 2: Short Bio + Foto\nAluno 3: Short Bio + Foto\nAluno 4: Short Bio + Foto\nAluno 5: Short Bio + Foto\n\n\n\n",
-      "last_modified": "2022-03-11T10:02:00-03:00"
+      "last_modified": "2022-03-11T10:04:54-03:00"
     }
   ],
   "collections": ["posts/posts.json"]

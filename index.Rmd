@@ -1,5 +1,7 @@
 ---
 title: "Twitter Político"
+description: |
+  Um blog para acompanhar o cenârio político brasileiro nas eleições presidenciais 2022 através do twitter e do análise de dados.
 site: distill::distill_website
 listing: posts
 ---
