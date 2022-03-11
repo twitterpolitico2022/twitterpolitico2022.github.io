@@ -1,7 +1,7 @@
 name: "Twitter Politico"
 title: "Twitter Político"
 description: |
-  Um blog para acompanhar o cenârio político brasileiro nas eleições presidenciais 2022 através do twitter e do análise de dados.
+  Um blog para acompanhar o cenário político brasileiro nas eleições presidenciais 2022 através do twitter e da análise de dados.
 base_url: https://twitterpolitico2022.github.io/
 output_dir: "docs"
 twitter:
