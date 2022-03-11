@@ -1,0 +1,34 @@
+---
+title: "O Twitter Político"
+description: |
+  Um projeto acadêmico para monitorar a tecnopolítica no twitter no âmbito das eleições presidenciais brasileiras 2022.
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+O `Twitter Político` é um projeto acadêmico do grupo de pesquisa [BDAQ (Big Data e Análise Quantitativa)](http://dgp.cnpq.br/dgp/espelhogrupo/764775), é liderado pelo Prof. Marcelo Castañeda (UFRJ) e conta com a colaboração dos professores Alessandra Maia (PUC-RJ) e Carlos Trucíos (UFRJ).
+
+Através dos `tweets` dos candidatos à corrida presidencial brasileira e dos usuários do `twitter`, utilizamos ferramentas de mineração de texto para entender .....
+
+
+## Pesquisadores
+
+- **Prof. Marcelo Casteñeda (UFRJ):** Short Bio + Foto
+- **Profa. Alessandra Maia (PUC-RJ):** Short Bio  + Foto
+- **Prof. Carlos Trucíos (UFRJ):** Short Bio + Foto
+
+## Alunos
+
+- Aluno 1: Short Bio + Foto
+- Aluno 2: Short Bio + Foto
+- Aluno 3: Short Bio + Foto
+- Aluno 4: Short Bio + Foto
+- Aluno 5: Short Bio + Foto
+
+
+
+
+
+

@@ -17,11 +17,13 @@
         "url": "https://ctruciosm.github.io/"
       }
     ],
-    "date": "2022-03-10",
+    "date": "2022-03-11",
     "categories": [],
-    "contents": "\n\n\n\n",
-    "preview": {},
-    "last_modified": "2022-03-10T08:05:46-03:00",
-    "input_file": {}
+    "contents": "\n\n\n\n\n\n\n",
+    "preview": "posts/welcome/wordcloud.png",
+    "last_modified": "2022-03-11T09:36:24-03:00",
+    "input_file": {},
+    "preview_width": 800,
+    "preview_height": 800
   }
 ]

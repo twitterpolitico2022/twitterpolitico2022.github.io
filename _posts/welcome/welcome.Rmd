@@ -11,8 +11,9 @@ author:
     affiliation: Pontifícia Universidade Católica do Rio de Janeiro
   - name: Carlos Trucíos
     url: https://ctruciosm.github.io/
+    orcid_id: 0000-0001-8746-8877
     affiliation: Universidade Federal do Rio de Janeiro
-date: 03-10-2022
+date: 03-11-2022
 output:
   distill::distill_article:
     self_contained: false
@@ -26,5 +27,12 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
+<center>
+
+```{r echo = FALSE, out.width = "40%"}
+knitr::include_graphics("wordcloud.png")
+```
+
+</center>
 
 
