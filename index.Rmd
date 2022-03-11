@@ -5,3 +5,16 @@ description: |
 site: distill::distill_website
 listing: posts
 ---
+
+
+```{r, include=FALSE, results='asis'}
+library(metathis)
+
+meta() %>%
+  meta_social(
+    title = "Twitter Político",
+    description = "Um blog para acompanhar o cenário político brasileiro nas eleições presidenciais 2022 através do twitter e da análise de dados.",
+    url = "https://twitterpolitico2022.github.io/",
+    image = "https://github.com/twitterpolitico2022/twitterpolitico2022.github.io/blob/master/_posts/welcome/wordcloud.png")
+```
+
