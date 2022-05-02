@@ -162,7 +162,7 @@ knitr::include_graphics("Lula_wordcloud.png")
 #### Ciro {.panel-name}
 
 <center>
-```{r echo = FALSE, out.width = "8%"}
+```{r echo = FALSE, out.width = "80%"}
 knitr::include_graphics("Ciro_wordcloud.png")
 ```
 </center>
