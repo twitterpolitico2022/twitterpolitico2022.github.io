@@ -150,7 +150,7 @@ knitr::include_graphics("Bolsonaro_wordcloud.png")
 #### Lula {.panel-name}
 
 <center>
-```{r echo = FALSE, out.width = "80%"}
+```{r echo = FALSE, out.width = "90%"}
 knitr::include_graphics("Lula_wordcloud.png")
 ```
 </center>
@@ -162,7 +162,7 @@ knitr::include_graphics("Lula_wordcloud.png")
 #### Ciro {.panel-name}
 
 <center>
-```{r echo = FALSE, out.width = "70%"}
+```{r echo = FALSE, out.width = "8%"}
 knitr::include_graphics("Ciro_wordcloud.png")
 ```
 </center>
@@ -177,7 +177,7 @@ Ao analisar as nuvens, compartilhamos a primeira impressão de cada uma:
 
 - **Bolsonaro:** em primeiro plano as palavras “presidente”, “Brasil”, “Lula” e "governo''; em segundo plano, “indulto”, “Daniel” e “Silveira”, que se associam a “STF”, “povo”, e a palavra “contra”; em terceiro plano, vem “motociata”, “corrupção”, “voto” e “PT”.  Pode-se destacar que, dentre os candidatos investigados, a nuvem de Bolsonaro é mais dispersa e apresenta menos substantivos.
 - **Lula:** em primeiro plano e em igual equivalência aparecem “presidente”, “Alckmin”, “Brasil” e “PT”;  em segundo plano “Moro”, “sobre” e “contra”;  em terceiro plano, “agora”, “diz”, “Ciro”, “povo”, “ONU”, “ladrão” e “votar”. Pode-se destacar que a nuvem de Lula possui maior densidade na frequência observada das palavras, sejam elas verbos, substantivos ou adjetivos, quando comparada às demais.
-- **Ciro$^{\asr}$:** em primeiro plano, de modo isolado, destacam-se as referências a “Lula” e “Bolsonaro”; em segundo plano, “Nogueira”, “Brasil”, “turno” e “presidente”; em terceiro plano “agrishow”, “agora”, “votar”, voto”, “PT”, “Doria”, “governo”, “contra” e “diz”. 
+- **Ciro$^{\ast}$:** em primeiro plano, de modo isolado, destacam-se as referências a “Lula” e “Bolsonaro”; em segundo plano, “Nogueira”, “Brasil”, “turno” e “presidente”; em terceiro plano “agrishow”, “agora”, “votar”, voto”, “PT”, “Doria”, “governo”, “contra” e “diz”. 
 
 > *Fazendo uma busca na plataforma, encontramos tuites direcionados ao ministro da Casa Civil Ciro Nogueira, sendo captados na formação da nuvem do candidato Ciro Gomes nesse mês de abril.
 
