@@ -6,7 +6,7 @@
       "description": "Um blog para acompanhar o cenário político brasileiro nas eleições presidenciais 2022 através do twitter e da análise de dados.\n",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2022-05-02T15:51:47-03:00"
+      "last_modified": "2022-05-02T16:20:14-03:00"
     },
     {
       "path": "sobre.html",
@@ -14,7 +14,7 @@
       "description": "Um projeto acadêmico para monitorar a tecnopolítica no twitter no âmbito das eleições presidenciais brasileiras 2022.",
       "author": [],
       "contents": "\nO Twitter Político é um projeto acadêmico do grupo de pesquisa BDAQ (Big Data e Análise Quantitativa) que reune os projetos de pesquisa “Organizações da Tecnopolítica no Twitter” (UFRJ) e “Eleições presidenciais 2022 no Twitter” (UFRJ e PUC-RJ).\nO projeto é liderado pelo Prof. Marcelo Castañeda (UFRJ) e conta com a colaboração dos professores Alessandra Maia (PUC-RJ) e Carlos Trucíos (UFRJ). O projeto também conta com a participação de diversos alunos de graduação.\nAtravés dos tuites dos candidatos à corrida presidencial brasileira e dos usuários do Twitter, utilizamos ferramentas de mineração de texto para entender o que os presidenciáveis tuitam e o que é tuitado sobre eles.\n\nO projeto não é financiado por nenhuma instituição seja pública ou privada, as análises e resultados obtidos através do projeto não representam a opinião das instituições acadêmicas envolvidas. Nenhum dos pesquisadores e alunos manifesta o apoio político-partidário a algum candidato através das publicações deste blog.\n\nPesquisadores\nProf. Marcelo Castañeda (UFRJ): Sociólogo, Professor de Estudos Organizacionais, Departamento de Administração, UFRJ\nProfa. Alessandra Maia (PUC-RJ): Doutora em Ciências Sociais e Professora de Ciência Política no Departamento de Ciências Sociais da Puc-Rio e no PPGCS da UFRRJ.\nProf. Carlos Trucíos (UFRJ): Doutor em Estatística pela UNICAMP, Professor de Métodos Quantitivos no Departamento de Administração, UFRJ.\nAlunos\n\n\n\n\n\n\n\n\n\n\n\n",
-      "last_modified": "2022-05-02T15:51:49-03:00"
+      "last_modified": "2022-05-02T16:20:15-03:00"
     }
   ],
   "collections": ["posts/posts.json"]
