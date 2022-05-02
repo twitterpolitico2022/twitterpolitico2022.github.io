@@ -86,380 +86,41 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>Twitter Político: O Twitter Político</title>
+  <title>Abril dos presidenciáveis no twitter</title>
 
-  <meta property="description" itemprop="description" content="Um projeto acadêmico para monitorar a tecnopolítica no twitter no âmbito das eleições presidenciais brasileiras 2022."/>
+  <meta property="description" itemprop="description" content="Saiba o que tuitam e como são tuitados os presidenciáveis."/>
 
 
+  <!--  https://schema.org/Article -->
+  <meta property="article:published" itemprop="datePublished" content="2022-05-02"/>
+  <meta property="article:created" itemprop="dateCreated" content="2022-05-02"/>
+  <meta name="article:author" content="Marcelo Castañeda"/>
+  <meta name="article:author" content="Alessandra Maia"/>
+  <meta name="article:author" content="Carlos Trucíos"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Twitter Político: O Twitter Político"/>
+  <meta property="og:title" content="Abril dos presidenciáveis no twitter"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Um projeto acadêmico para monitorar a tecnopolítica no twitter no âmbito das eleições presidenciais brasileiras 2022."/>
+  <meta property="og:description" content="Saiba o que tuitam e como são tuitados os presidenciáveis."/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="Twitter Político"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Twitter Político: O Twitter Político"/>
-  <meta property="twitter:description" content="Um projeto acadêmico para monitorar a tecnopolítica no twitter no âmbito das eleições presidenciais brasileiras 2022."/>
-  <meta property="twitter:site" content="@twiter_politico"/>
+  <meta property="twitter:title" content="Abril dos presidenciáveis no twitter"/>
+  <meta property="twitter:description" content="Saiba o que tuitam e como são tuitados os presidenciáveis."/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["O Twitter Político"]},{"type":"character","attributes":{},"value":["Um projeto acadêmico para monitorar a tecnopolítica no twitter no âmbito das eleições presidenciais brasileiras 2022."]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Abril dos presidenciáveis no twitter"]},{"type":"character","attributes":{},"value":["Saiba o que tuitam e como são tuitados os presidenciáveis. \n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation"]}},"value":[{"type":"character","attributes":{},"value":["Marcelo Castañeda"]},{"type":"character","attributes":{},"value":["https://twitter.com/celocastaneda"]},{"type":"character","attributes":{},"value":["Universidade Federal do Rio de Janeiro"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation"]}},"value":[{"type":"character","attributes":{},"value":["Alessandra Maia"]},{"type":"character","attributes":{},"value":["https://twitter.com/amaiatfaria"]},{"type":"character","attributes":{},"value":["Pontifícia Universidade Católica do Rio de Janeiro"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation"]}},"value":[{"type":"character","attributes":{},"value":["Carlos Trucíos"]},{"type":"character","attributes":{},"value":["https://ctruciosm.github.io/"]},{"type":"character","attributes":{},"value":["Universidade Federal do Rio de Janeiro"]}]}]},{"type":"character","attributes":{},"value":["05-02-2022"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","fig_caption"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
-  <!--radix_placeholder_navigation_in_header-->
-  <meta name="distill:offset" content=""/>
-
-  <script type="application/javascript">
-
-    window.headroom_prevent_pin = false;
-
-    window.document.addEventListener("DOMContentLoaded", function (event) {
-
-      // initialize headroom for banner
-      var header = $('header').get(0);
-      var headerHeight = header.offsetHeight;
-      var headroom = new Headroom(header, {
-        tolerance: 5,
-        onPin : function() {
-          if (window.headroom_prevent_pin) {
-            window.headroom_prevent_pin = false;
-            headroom.unpin();
-          }
-        }
-      });
-      headroom.init();
-      if(window.location.hash)
-        headroom.unpin();
-      $(header).addClass('headroom--transition');
-
-      // offset scroll location for banner on hash change
-      // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
-      window.addEventListener("hashchange", function(event) {
-        window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
-      });
-
-      // responsive menu
-      $('.distill-site-header').each(function(i, val) {
-        var topnav = $(this);
-        var toggle = topnav.find('.nav-toggle');
-        toggle.on('click', function() {
-          topnav.toggleClass('responsive');
-        });
-      });
-
-      // nav dropdowns
-      $('.nav-dropbtn').click(function(e) {
-        $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
-        $(this).parent().siblings('.nav-dropdown')
-           .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $("body").click(function(e){
-        $('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $(".nav-dropdown").click(function(e){
-        e.stopPropagation();
-      });
-    });
+  
+  <script type="text/json" id="radix-resource-manifest">
+  {"type":"character","attributes":{},"value":["abril-dos-presidenciveis-no-twitter_files/anchor-4.2.2/anchor.min.js","abril-dos-presidenciveis-no-twitter_files/bowser-1.9.3/bowser.min.js","abril-dos-presidenciveis-no-twitter_files/distill-2.2.21/template.v2.js","abril-dos-presidenciveis-no-twitter_files/header-attrs-2.9/header-attrs.js","abril-dos-presidenciveis-no-twitter_files/jquery-1.11.3/jquery.min.js","abril-dos-presidenciveis-no-twitter_files/panelset-0.2.6/panelset.css","abril-dos-presidenciveis-no-twitter_files/panelset-0.2.6/panelset.js","abril-dos-presidenciveis-no-twitter_files/popper-2.6.0/popper.min.js","abril-dos-presidenciveis-no-twitter_files/tippy-6.2.7/tippy-bundle.umd.min.js","abril-dos-presidenciveis-no-twitter_files/tippy-6.2.7/tippy-light-border.css","abril-dos-presidenciveis-no-twitter_files/tippy-6.2.7/tippy.css","abril-dos-presidenciveis-no-twitter_files/tippy-6.2.7/tippy.umd.min.js","abril-dos-presidenciveis-no-twitter_files/webcomponents-2.0.0/webcomponents.js","Bolsonaro_wordcloud.png","Ciro_wordcloud.png","evolucao_tweets_candidatos_abril.png","Lula_wordcloud.png","Most_Frequent_Words_Timeline_Abril.png","TF_IDF_timelines_Abril.png","Tweets_candidatos_abril.png","Tweets_per_candidato_Abril_.png"]}
   </script>
-
-  <style type="text/css">
-
-  /* Theme (user-documented overrideables for nav appearance) */
-
-  .distill-site-nav {
-    color: rgba(255, 255, 255, 0.8);
-    background-color: #0F2E3D;
-    font-size: 15px;
-    font-weight: 300;
-  }
-
-  .distill-site-nav a {
-    color: inherit;
-    text-decoration: none;
-  }
-
-  .distill-site-nav a:hover {
-    color: white;
-  }
-
-  @media print {
-    .distill-site-nav {
-      display: none;
-    }
-  }
-
-  .distill-site-header {
-
-  }
-
-  .distill-site-footer {
-
-  }
-
-
-  /* Site Header */
-
-  .distill-site-header {
-    width: 100%;
-    box-sizing: border-box;
-    z-index: 3;
-  }
-
-  .distill-site-header .nav-left {
-    display: inline-block;
-    margin-left: 8px;
-  }
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header .nav-left {
-      margin-left: 0;
-    }
-  }
-
-
-  .distill-site-header .nav-right {
-    float: right;
-    margin-right: 8px;
-  }
-
-  .distill-site-header a,
-  .distill-site-header .title {
-    display: inline-block;
-    text-align: center;
-    padding: 14px 10px 14px 10px;
-  }
-
-  .distill-site-header .title {
-    font-size: 18px;
-    min-width: 150px;
-  }
-
-  .distill-site-header .logo {
-    padding: 0;
-  }
-
-  .distill-site-header .logo img {
-    display: none;
-    max-height: 20px;
-    width: auto;
-    margin-bottom: -4px;
-  }
-
-  .distill-site-header .nav-image img {
-    max-height: 18px;
-    width: auto;
-    display: inline-block;
-    margin-bottom: -3px;
-  }
-
-
-
-  @media screen and (min-width: 1000px) {
-    .distill-site-header .logo img {
-      display: inline-block;
-    }
-    .distill-site-header .nav-left {
-      margin-left: 20px;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 20px;
-    }
-    .distill-site-header .title {
-      padding-left: 12px;
-    }
-  }
-
-
-  .distill-site-header .nav-toggle {
-    display: none;
-  }
-
-  .nav-dropdown {
-    display: inline-block;
-    position: relative;
-  }
-
-  .nav-dropdown .nav-dropbtn {
-    border: none;
-    outline: none;
-    color: rgba(255, 255, 255, 0.8);
-    padding: 16px 10px;
-    background-color: transparent;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    margin: 0;
-    margin-top: 1px;
-    z-index: 2;
-  }
-
-  .nav-dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 200px;
-    border: 1px solid rgba(0,0,0,0.15);
-    border-radius: 4px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
-    z-index: 1;
-    margin-top: 2px;
-    white-space: nowrap;
-    padding-top: 4px;
-    padding-bottom: 4px;
-  }
-
-  .nav-dropdown-content hr {
-    margin-top: 4px;
-    margin-bottom: 4px;
-    border: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  }
-
-  .nav-dropdown-active {
-    display: block;
-  }
-
-  .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
-    color: black;
-    padding: 6px 24px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-
-  .nav-dropdown-content .nav-dropdown-header {
-    display: block;
-    padding: 5px 24px;
-    padding-bottom: 0;
-    text-transform: uppercase;
-    font-size: 14px;
-    color: #999999;
-    white-space: nowrap;
-  }
-
-  .nav-dropdown:hover .nav-dropbtn {
-    color: white;
-  }
-
-  .nav-dropdown-content a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
-  .nav-right .nav-dropdown-content {
-    margin-left: -45%;
-    right: 0;
-  }
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
-    .distill-site-header a.nav-toggle {
-      float: right;
-      display: block;
-    }
-    .distill-site-header .title {
-      margin-left: 0;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 0;
-    }
-    .distill-site-header {
-      overflow: hidden;
-    }
-    .nav-right .nav-dropdown-content {
-      margin-left: 0;
-    }
-  }
-
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header.responsive {position: relative; min-height: 500px; }
-    .distill-site-header.responsive a.nav-toggle {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .distill-site-header.responsive a,
-    .distill-site-header.responsive .nav-dropdown {
-      display: block;
-      text-align: left;
-    }
-    .distill-site-header.responsive .nav-left,
-    .distill-site-header.responsive .nav-right {
-      width: 100%;
-    }
-    .distill-site-header.responsive .nav-dropdown {float: none;}
-    .distill-site-header.responsive .nav-dropdown-content {position: relative;}
-    .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
-      display: block;
-      width: 100%;
-      text-align: left;
-    }
-  }
-
-  /* Site Footer */
-
-  .distill-site-footer {
-    width: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-    z-index: 3;
-    margin-top: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-  }
-
-  /* Headroom */
-
-  d-title {
-    padding-top: 6rem;
-  }
-
-  @media print {
-    d-title {
-      padding-top: 4rem;
-    }
-  }
-
-  .headroom {
-    z-index: 1000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-
-  .headroom--transition {
-    transition: all .4s ease-in-out;
-  }
-
-  .headroom--unpinned {
-    top: -100px;
-  }
-
-  .headroom--pinned {
-    top: 0;
-  }
-
-  /* adjust viewport for navbar height */
-  /* helps vertically center bootstrap (non-distill) content */
-  .min-vh-100 {
-    min-height: calc(100vh - 100px) !important;
-  }
-
-  </style>
-
-  <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
-  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
-  <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
+  <!--radix_placeholder_navigation_in_header-->
   <!--/radix_placeholder_navigation_in_header-->
   <!--radix_placeholder_distill-->
 
@@ -1775,15 +1436,18 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
-  <script src="site_libs/popper-2.6.0/popper.min.js"></script>
-  <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
-  <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
-  <script src="site_libs/tippy-6.2.7/tippy.umd.min.js"></script>
-  <script src="site_libs/anchor-4.2.2/anchor.min.js"></script>
-  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
-  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
-  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
+  <script src="abril-dos-presidenciveis-no-twitter_files/header-attrs-2.9/header-attrs.js"></script>
+  <link href="abril-dos-presidenciveis-no-twitter_files/panelset-0.2.6/panelset.css" rel="stylesheet" />
+  <script src="abril-dos-presidenciveis-no-twitter_files/panelset-0.2.6/panelset.js"></script>
+  <script src="abril-dos-presidenciveis-no-twitter_files/jquery-1.11.3/jquery.min.js"></script>
+  <script src="abril-dos-presidenciveis-no-twitter_files/popper-2.6.0/popper.min.js"></script>
+  <link href="abril-dos-presidenciveis-no-twitter_files/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="abril-dos-presidenciveis-no-twitter_files/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="abril-dos-presidenciveis-no-twitter_files/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="abril-dos-presidenciveis-no-twitter_files/anchor-4.2.2/anchor.min.js"></script>
+  <script src="abril-dos-presidenciveis-no-twitter_files/bowser-1.9.3/bowser.min.js"></script>
+  <script src="abril-dos-presidenciveis-no-twitter_files/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="abril-dos-presidenciveis-no-twitter_files/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
   <!--/radix_placeholder_site_in_header-->
 
@@ -1795,62 +1459,162 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"O Twitter Político","description":"Um projeto acadêmico para monitorar a tecnopolítica no twitter no âmbito das eleições presidenciais brasileiras 2022.","authors":[]}
+{"title":"Abril dos presidenciáveis no twitter","description":"Saiba o que tuitam e como são tuitados os presidenciáveis.","authors":[{"author":"Marcelo Castañeda","authorURL":"https://twitter.com/celocastaneda","affiliation":"Universidade Federal do Rio de Janeiro","affiliationURL":"#","orcidID":""},{"author":"Alessandra Maia","authorURL":"https://twitter.com/amaiatfaria","affiliation":"Pontifícia Universidade Católica do Rio de Janeiro","affiliationURL":"#","orcidID":""},{"author":"Carlos Trucíos","authorURL":"https://ctruciosm.github.io/","affiliation":"Universidade Federal do Rio de Janeiro","affiliationURL":"#","orcidID":""}],"publishedDate":"2022-05-02T00:00:00.000+00:00","citationText":"Castañeda, et al., 2022"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
 <!--radix_placeholder_navigation_before_body-->
-<header class="header header--fixed" role="banner">
-<nav class="distill-site-nav distill-site-header">
-<div class="nav-left">
-<a href="index.html" class="title">Twitter Político</a>
-</div>
-<div class="nav-right">
-<a href="index.html">Posts</a>
-<a href="sobre.html">Sobre</a>
-<a href="https://twitter.com/twiter_politico">
-<i class="fab fa-twitter" aria-hidden="true"></i>
-</a>
-<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
-</div>
-</nav>
-</header>
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>O Twitter Político</h1>
+<h1>Abril dos presidenciáveis no twitter</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Um projeto acadêmico para monitorar a tecnopolítica no twitter no âmbito das eleições presidenciais brasileiras 2022.</p></p>
+<p><p>Saiba o que tuitam e como são tuitados os presidenciáveis.</p></p>
 </div>
 
+<div class="d-byline">
+  Marcelo Castañeda <a href="https://twitter.com/celocastaneda" class="uri">https://twitter.com/celocastaneda</a> (Universidade Federal do Rio de Janeiro)
+  
+,   Alessandra Maia <a href="https://twitter.com/amaiatfaria" class="uri">https://twitter.com/amaiatfaria</a> (Pontifícia Universidade Católica do Rio de Janeiro)
+  
+,   Carlos Trucíos <a href="https://ctruciosm.github.io/" class="uri">https://ctruciosm.github.io/</a> (Universidade Federal do Rio de Janeiro)
+  
+<br/>05-02-2022
+</div>
 
 <div class="d-article">
-<p>O <code>Twitter Político</code> é um projeto acadêmico do grupo de pesquisa <a href="http://dgp.cnpq.br/dgp/espelhogrupo/764775"><strong>BDAQ (Big Data e Análise Quantitativa)</strong></a> que reune os projetos de pesquisa “Organizações da Tecnopolítica no Twitter” (UFRJ) e “Eleições presidenciais 2022 no Twitter” (UFRJ e PUC-RJ).</p>
-<p>O projeto é liderado pelo Prof. Marcelo Castañeda (UFRJ) e conta com a colaboração dos professores Alessandra Maia (PUC-RJ) e Carlos Trucíos (UFRJ). O projeto também conta com a participação de diversos alunos de graduação.</p>
-<p>Através dos tuites dos candidatos à corrida presidencial brasileira e dos usuários do Twitter, utilizamos ferramentas de mineração de texto para entender o que os presidenciáveis tuitam e o que é tuitado sobre eles.</p>
+<h2 id="como-os-dados-foram-extraídos">Como os dados foram extraídos</h2>
+<p>Para cada candidato, foram coletados tuítes referentes a cada um dos 30 dias do mês de abril, totalizando, mais de 11 milhões de tuítes. Os dados foram extraídos através de uma API do twitter utilizada exclusivamente para fins acadêmicos e analisados utilizando o software R.</p>
+<aside>
+Os autores agradecem ao Twitter pelas contas acadêmicas a eles concedidas.
+</aside>
+<h2 id="contexto-geral">Contexto geral</h2>
+<p>Cabe ressaltar a disparidade entre o número de seguidores no Twitter dos candidatos durante o período de análise (abril, 2022).</p>
+<ul>
+<li>Bolsonaro - 7,8 milhões</li>
+<li>Lula - 3,4 milhões</li>
+<li>Ciro - 1, 3 milhões</li>
+</ul>
+<h2 id="tuites-dos-candidatos">Tuites dos candidatos</h2>
+<p>Na Figura 1 abaixo, apresentamos um gráfico com o número de tuites da timeline dos candidatos, dentre os três que fizeram parte de nosso levantamento: Ciro, Lula e Bolsonaro, de acordo com a frequência com que os candidatos tuitaram no mês abril.</p>
+<center>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure"><span id="fig:unnamed-chunk-1"></span>
+<img src="Tweets_per_candidato_Abril_.png" alt="Número de tuítes na timeline dos candidatos" width="85%" />
+<p class="caption">
+Figure 1: Número de tuítes na timeline dos candidatos
+</p>
+</div>
+</div>
+</center>
+<p>As Figuras 2 e 3 apresentam as palavras mais frequentes nos tuítes da timeline dos candidatos e as palavras mais frequentes nos tuítes da timeline dos candidatos que não foram tão frequentes nos túites da timeline dos outros candidatos, respectivamente.</p>
+<center>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure"><span id="fig:unnamed-chunk-2"></span>
+<img src="Most_Frequent_Words_Timeline_Abril.png" alt="Palavras mais frequentes na timeline dos candidatos" width="100%" />
+<p class="caption">
+Figure 2: Palavras mais frequentes na timeline dos candidatos
+</p>
+</div>
+</div>
+</center>
+<p>A análise das palavras mais frequentes nos tuites da timeline dos candidatos nos permite apresentar um panorama dominante dos assuntos por eles tratados. Enquanto o perfil de Bolsonaro dá destaque aos feitos do governo, em especial os gastos em reais (r) expressos em cifras de milhões e bilhões, o perfil de Lula dá destaque ao povo e traz uma chave positiva, com o termo “bom”. Já o perfil de Ciro, se preocupa em mencionar nominalmente os outros dois candidatos. Por fim, o termo governo é tema comum ao perfil dos três candidatos.</p>
+<center>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure"><span id="fig:unnamed-chunk-3"></span>
+<img src="TF_IDF_timelines_Abril.png" alt="TF-IDF da timeline dos candidados" width="100%" />
+<p class="caption">
+Figure 3: TF-IDF da timeline dos candidados
+</p>
+</div>
+</div>
+</center>
+<p>TF-IDF (<em>term frequency-inverse document frequency</em>) reflete a frequência das palavras nos tuites da timeline dos candidatos que não são tão frequentes para os três candidatos em geral. Assim:</p>
+<ul>
+<li>O perfil de Lula se destaca pelas ações propositivas, através da ênfase dada ao uso de verbos como “fazer, recuperar, reconstruir”.</li>
+<li>O perfil de Bolsonaro apresenta como especificidade o “Telegram”, e a menção a “ações, bilhões e títulos”, bem como a ênfase em “redução”, procurando comparar o que seu governo realizou entre 2019 e 2021.</li>
+<li>No perfil de Ciro, a ênfase é dada ao Ceará e Lula.</li>
+<li>Vale acrescentar que os três perfis falam das pessoas em si dos candidatos. Ou seja, Lula e Ciro aos nomes diretamente, e Bolsonaro através das referências a “Jair” e “pr”.</li>
+</ul>
+<p>Ainda a título de últimas observações, os palavras “ONU, zanin e cristiano” figuram nas menções do perfil de Lula, associadas à decisão do Comitê de Direitos Humanos da ONU sobre sua sentença na Lava Jato. É importante também mencionar que <em>et</em> no perfil do Lula, refere-se à palavra em francês <em>et</em> (que significa “e”) quando tuítes na timeline do candidato são postados em francês. Por último, a alta frequência observada no termo “19h30” na timeline do candidato Ciro Gomes, faz referência à live “Ciro Games” que acontece nesse horário.</p>
+<h2 id="tuites-sobre-os-candidatos">Tuites sobre os candidatos</h2>
+<p>Na sequência apresentamos em ordem decrescente (do mais citado ao menos citado), o total de tuítes que mencionaram o nome de cada candidato pesquisado durante a última semana: Bolsonaro, Lula e Ciro.</p>
+<aside>
+Para coletar os tuítes mencionando os respectivos candidatos, foram utilizados como critério de busca as palavras “Bolsonaro”, “Ciro” e “Lula”.
+</aside>
+<center>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure"><span id="fig:unnamed-chunk-4"></span>
+<img src="Tweets_candidatos_abril.png" alt="Total de tuítes sobre os candidatos" width="85%" />
+<p class="caption">
+Figure 4: Total de tuítes sobre os candidatos
+</p>
+</div>
+</div>
+</center>
+<p>É importante mencionar que, devido ao critério de busca utilizado e como será apresentado posteriormente, os tuítes referentes ao candidato Ciro Gomes incluem também tuítes referentes ao Ministro da Casa Civil, Ciro Nogueira. Apesar disso, o número de tuítes sobre Ciro Gomes é menor do que a oitava parte do número de tuítes referentes ao candidato Jair Bolsonaro e menor do que a quinta parte do número de tuítes referentes ao candidato Luiz Lula. A cada três tuites falando de Bolsonaro, dois falam de Lula; nesse sentido, as interações envolvendo o nome de Ciro não parecem ser relevantes.</p>
+<center>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure"><span id="fig:unnamed-chunk-5"></span>
+<img src="evolucao_tweets_candidatos_abril.png" alt="Evolução diária da quantitate de tuítes sobre os candidatos" width="85%" />
+<p class="caption">
+Figure 5: Evolução diária da quantitate de tuítes sobre os candidatos
+</p>
+</div>
+</div>
+</center>
+<p>A Figura 4, apresenta a evolução diária do número de tuítes a respeito dos candidatos. A superioriedade do número de tuítes do Lula e Bolsonaro, sobre o número de tuítes de Ciro é indiscutível e persiste ao longo do mês inteiro. Por outro lado, embora o número de tuítes a respeito de Bolsonaro é, em geral, superior ao número de tuítes sobre o candidato Lula, existem 2 períodos do tempo em que o número de tuítes do Lula supera o número de tuítes acerca do Bolsonaro.</p>
+<h3 id="núvem-de-palavras">Núvem de palavras</h3>
+<p>Por fim, apresentamos abaixo três nuvens de palavras, onde cada uma corresponde a um candidato. É importante sinalizar que o nome de cada candidato foi retirado da sua própria nuvem, para melhor visualização das palavras a ele associadas. Cabe ressaltar também, que cada nuvem reflete as 100 palavras mais relevantes associadas, excluídas <em>stop words</em>, a cada candidato nas interações dos usuários do Twitter no último mês de abril.</p>
+<aside>
+Uma nuvem de palavras é uma representação gráfica das palavras mais frequentes dentro de um texto ou conjunto de textos.
+</aside>
 <blockquote>
-<p>O projeto não é financiado por nenhuma instituição seja pública ou privada, as análises e resultados obtidos através do projeto não representam a opinião das instituições acadêmicas envolvidas. Nenhum dos pesquisadores e alunos manifesta o apoio político-partidário a algum candidato através das publicações deste blog.</p>
+<p>Clique no nome do candidato para ver a respectiva nuvem de palavras.</p>
 </blockquote>
-<h2 id="pesquisadores">Pesquisadores</h2>
+<div class="layout-chunk" data-layout="l-page">
+<p><style>.panelset{--panel-tab-foreground: honeydew;--panel-tab-background: #0F2E3D;}</style></p>
+</div>
+<div class="panelset">
+<section id="bolsonaro" class="panel-name panel">
+<h4 class="panel-name">Bolsonaro</h4>
+<center>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="Bolsonaro_wordcloud.png" width="70%" /></p>
+</div>
+</center>
+</section>
+<section id="lula" class="panel-name panel">
+<h4 class="panel-name">Lula</h4>
+<center>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="Lula_wordcloud.png" width="70%" /></p>
+</div>
+</center>
+</section>
+<section id="ciro" class="panel-name panel">
+<h4 class="panel-name">Ciro</h4>
+<center>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="Ciro_wordcloud.png" width="70%" /></p>
+</div>
+</center>
+</section>
+</div>
+<p>Ao analisar as nuvens, compartilhamos a primeira impressão de cada uma:</p>
 <ul>
-<li><strong>Prof. Marcelo Castañeda (UFRJ):</strong> Sociólogo, Professor de Estudos Organizacionais, Departamento de Administração, UFRJ</li>
-<li><strong>Profa. Alessandra Maia (PUC-RJ):</strong> Doutora em Ciências Sociais e Professora de Ciência Política no Departamento de Ciências Sociais da Puc-Rio e no PPGCS da UFRRJ.</li>
-<li><strong>Prof. Carlos Trucíos (UFRJ):</strong> Doutor em Estatística pela UNICAMP, Professor de Métodos Quantitivos no Departamento de Administração, UFRJ.</li>
+<li><strong>Bolsonaro:</strong> em primeiro plano as palavras “presidente”, “Brasil”, “Lula” e “governo’’; em segundo plano, “indulto”, “Daniel” e “Silveira”, que se associam a “STF”, “povo”, e a palavra “contra”; em terceiro plano, vem “motociata”, “corrupção”, “voto” e “PT”. Pode-se destacar que, dentre os candidatos investigados, a nuvem de Bolsonaro é mais dispersa e apresenta menos substantivos.</li>
+<li><strong>Lula:</strong> em primeiro plano e em igual equivalência aparecem “presidente”, “Alckmin”, “Brasil” e “PT”; em segundo plano “Moro”, “sobre” e “contra”; em terceiro plano, “agora”, “diz”, “Ciro”, “povo”, “ONU”, “ladrão” e “votar”. Pode-se destacar que a nuvem de Lula possui maior densidade na frequência observada das palavras, sejam elas verbos, substantivos ou adjetivos, quando comparada às demais.</li>
+<li>__Ciro*:__ em primeiro plano, de modo isolado, destacam-se as referências a “Lula” e “Bolsonaro”; em segundo plano, “Nogueira”, “Brasil”, “turno” e “presidente”; em terceiro plano “agrishow”, “agora”, “votar”, voto”, “PT”, “Doria”, “governo”, “contra” e “diz”.</li>
 </ul>
-<h2 id="alunos">Alunos</h2>
-<ul>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-</ul>
+<blockquote>
+<p>*Fazendo uma busca na plataforma, encontramos tuites direcionados ao ministro da Casa Civil Ciro Nogueira, sendo captados na formação da nuvem do candidato Ciro Gomes nesse mês de abril.</p>
+</blockquote>
+<h2 id="comentários-finais">Comentários finais</h2>
+<p>A apresentação desse conjunto de dados visa contribuir para interpretações sobre a movimentação no Twitter dos possíveis candidatos nas eleições de 2022, bem como sobre o que se fala a seu respeito nas interações dos usuários da plataforma no mês de abril. Esse é um trabalho de pesquisa em andamento e será aperfeiçoado no transcorrer dos meses até a eleição de 2022.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
@@ -1866,12 +1630,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <div class="appendix-bottom"></div>
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
-<div class="distill-site-nav distill-site-footer">
-<p>Blog elaborado em <a href="https://www.rstudio.com"><strong>Rstudio</strong></a> utilizando os pacotes <a href="https://rstudio.github.io/distill/"><strong>distill</strong></a>, <a href="https://rmarkdown.rstudio.com"><strong>Rmarkdown</strong></a> e <a href="https://github.com/gadenbuie/xaringanExtra"><strong>xaringanExtra</strong></a>.</p>
-<p>© Copyright 2022</p>
-</div>
 <!--/radix_placeholder_navigation_after_body-->
-
 
 </body>
 

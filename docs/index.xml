@@ -7,7 +7,18 @@
     <description>Um blog para acompanhar o cenário político brasileiro nas eleições presidenciais 2022 através do twitter e da análise de dados.
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Fri, 11 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 May 2022 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Abril dos presidenciáveis no twitter</title>
+      <dc:creator>Marcelo Castañeda</dc:creator>
+      <dc:creator>Alessandra Maia</dc:creator>
+      <dc:creator>Carlos Trucíos</dc:creator>
+      <link>https://twitterpolitico2022.github.io/posts/2022-05-02-abril-dos-presidenciveis-no-twitter</link>
+      <description>Saiba o que tuitam e como são tuitados os presidenciáveis.</description>
+      <guid>https://twitterpolitico2022.github.io/posts/2022-05-02-abril-dos-presidenciveis-no-twitter</guid>
+      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <media:content url="https://twitterpolitico2022.github.io/posts/2022-05-02-abril-dos-presidenciveis-no-twitter/Tweets_per_candidato_Abril_.png" medium="image" type="image/png" width="3425" height="2244"/>
+    </item>
     <item>
       <title>A semana dos presidenciáveis no Twitter (4 a 10/3)</title>
       <dc:creator>Marcelo Castañeda</dc:creator>

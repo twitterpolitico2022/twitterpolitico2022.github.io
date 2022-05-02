@@ -15,7 +15,9 @@ O `Twitter Político` é um projeto acadêmico do grupo de pesquisa [**BDAQ (Big
 
 O projeto é liderado pelo Prof. Marcelo Castañeda (UFRJ) e conta com a colaboração dos professores Alessandra Maia (PUC-RJ) e Carlos Trucíos (UFRJ). O projeto também conta com a participação de diversos alunos de graduação.
 
-Através dos tuites dos candidatos à corrida presidencial brasileira e dos usuários do Twitter, utilizamos ferramentas de mineração de texto para entender o que os presidenciáveis tuitem o que é tuitado sobre eles.  
+Através dos tuites dos candidatos à corrida presidencial brasileira e dos usuários do Twitter, utilizamos ferramentas de mineração de texto para entender o que os presidenciáveis tuitam e o que é tuitado sobre eles.
+
+
 
 > O projeto não é financiado por nenhuma instituição seja pública ou privada, as análises e resultados obtidos através do projeto não representam a opinião das instituições acadêmicas envolvidas. Nenhum dos pesquisadores e alunos manifesta o apoio político-partidário a algum candidato através das publicações deste blog.
 
