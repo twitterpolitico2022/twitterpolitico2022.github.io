@@ -184,6 +184,69 @@ Ao analisar as nuvens, compartilhamos a primeira impressão de cada uma:
 > *Fazendo uma busca na plataforma, encontramos tuites direcionados ao ministro da Casa Civil Ciro Nogueira, sendo captados na formação da nuvem do candidato Ciro Gomes nesse mês de abril.
 
 
+### Análise de sentimentos
+
+O sentimento de cada tuíte foi construído através da identificação dos sentimentos das unidades básicas (as palavras) utilizando os dicionários `oplexicon v3.0` e `sentilex`, do pacote [`lexiconPT`](https://cran.r-project.org/web/packages/lexiconPT/index.html). Assim, cada palavra encontrada nos dicionários recebe a nota 1, -1 ou 0, a depender de se o sentimento for positivo, negativo ou neutro, respectivamente.  Palavras não encontradas nos dicionários recebem também nota 0. Os valores atribuídos a cada palavra dentro do tuíte foram somados, e a depender do resultado positivo, negativo ou zero, o sentimento do tuíte é classificado como positivo, negativo ou neutro.
+
+
+A seguir, é possível observar a nuvem de palavras de cada um dos candidatos, apresentada em separado, segundo os sentimentos atribuídos a cada tuíte. Palavras em verde aparecem nos tuítes classificados como associados a sentimentos positivos, palavras em vermelho aparecem nos tuítes classificados como associados a sentimentos negativos, e palavras em amarelo aparecem nos tuítes classificados como neutros. 
+
+
+::::: {.panelset}
+
+::: {.panel}
+
+#### Bolsonaro {.panel-name}
+
+<center>
+```{r echo = FALSE, out.width = "100%"}
+knitr::include_graphics("Bolsonaro_sentimentos.png")
+```
+</center>
+
+:::
+
+::: {.panel}
+
+#### Lula {.panel-name}
+
+<center>
+```{r echo = FALSE, out.width = "100%"}
+knitr::include_graphics("Lula_sentimentos.png")
+```
+</center>
+
+:::
+
+::: {.panel}
+
+#### Ciro {.panel-name}
+
+<center>
+```{r echo = FALSE, out.width = "100%"}
+knitr::include_graphics("Ciro_sentimentos.png")
+```
+</center>
+
+:::
+
+:::::
+
+
+#### Bolsonaro
+
+Os tuítes relacionados ao candidato Bolsonaro que foram classificados como associados a sentimentos positivos estão caracterizados por palavras como Brasil, liberdade, reeleito, supremo, democracia, entre outros.  Já os tuites classificados como associados a sentimentos negativos são caracterizados por palavras como corrupção, corrupto, culpa, votar, bandido, governo, tortura, vergonha, horrível, mentiroso, etc. Por último, tuítes considerados como neutros são caracterizados por palavras como presidente, indulto, lula e motociata. 
+
+#### Lula
+
+Os tuítes relacionados ao candidato Lula que foram classificados como associados a sentimentos positivos estão caracterizados por palavras como bom, verdade, mundo, sabe, ver,  onu, livre,  inocente, democracia, humanos, companheiros, direitos, melhor, novo, etc. 
+Já os tuítes classificados como negativos estão caracterizados por palavras como votar, corrupção, presidiário, condenado, prisão, bandido.  Por último, os tuítes com sentimento neutro estão caracterizados por palavras como Bolsonaro, Alckmin, socialista, internacional, cristão, advogados.
+
+#### Ciro
+
+Os tuítes relacionados ao candidato Ciro que foram classificados como associados a sentimentos positivos estão caracterizados por palavras como convocação, aprovados, todos, pf, ver, etc. Já os tuítes classificados como negativos estão caracterizados por palavras como Bolsonaro, votar, pensa, corrupção, xingado, ignorado, quadrilhão, agrishow, vaiado, etc.  Por último, os tuítes com sentimento neutro estão caracterizados por palavras como Lula, contra, pl, 21, nunca, evento entre outras.  
+
+
 ## Comentários finais
 
 A apresentação desse conjunto de dados visa contribuir para interpretações sobre a movimentação no Twitter dos possíveis candidatos nas eleições de 2022, bem como sobre o que se fala a seu respeito nas interações dos usuários da plataforma no mês de abril. Esse é um trabalho de pesquisa em andamento e será aperfeiçoado no transcorrer dos meses até a eleição de 2022.

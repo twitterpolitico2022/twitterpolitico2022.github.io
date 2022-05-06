@@ -140,7 +140,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["abril-dos-presidenciveis-no-twitter_files/anchor-4.2.2/anchor.min.js","abril-dos-presidenciveis-no-twitter_files/bowser-1.9.3/bowser.min.js","abril-dos-presidenciveis-no-twitter_files/distill-2.2.21/template.v2.js","abril-dos-presidenciveis-no-twitter_files/header-attrs-2.9/header-attrs.js","abril-dos-presidenciveis-no-twitter_files/jquery-1.11.3/jquery.min.js","abril-dos-presidenciveis-no-twitter_files/panelset-0.2.6/panelset.css","abril-dos-presidenciveis-no-twitter_files/panelset-0.2.6/panelset.js","abril-dos-presidenciveis-no-twitter_files/popper-2.6.0/popper.min.js","abril-dos-presidenciveis-no-twitter_files/tippy-6.2.7/tippy-bundle.umd.min.js","abril-dos-presidenciveis-no-twitter_files/tippy-6.2.7/tippy-light-border.css","abril-dos-presidenciveis-no-twitter_files/tippy-6.2.7/tippy.css","abril-dos-presidenciveis-no-twitter_files/tippy-6.2.7/tippy.umd.min.js","abril-dos-presidenciveis-no-twitter_files/webcomponents-2.0.0/webcomponents.js","Bolsonaro_wordcloud.png","Ciro_wordcloud.png","evolucao_tweets_candidatos_abril.png","Lula_wordcloud.png","Most_Frequent_Words_Timeline_Abril.png","TF_IDF_timelines_Abril.png","Tweets_candidatos_abril.png","Tweets_per_candidato_Abril_.png"]}
+  {"type":"character","attributes":{},"value":["abril-dos-presidenciveis-no-twitter_files/anchor-4.2.2/anchor.min.js","abril-dos-presidenciveis-no-twitter_files/bowser-1.9.3/bowser.min.js","abril-dos-presidenciveis-no-twitter_files/distill-2.2.21/template.v2.js","abril-dos-presidenciveis-no-twitter_files/header-attrs-2.9/header-attrs.js","abril-dos-presidenciveis-no-twitter_files/jquery-1.11.3/jquery.min.js","abril-dos-presidenciveis-no-twitter_files/panelset-0.2.6/panelset.css","abril-dos-presidenciveis-no-twitter_files/panelset-0.2.6/panelset.js","abril-dos-presidenciveis-no-twitter_files/popper-2.6.0/popper.min.js","abril-dos-presidenciveis-no-twitter_files/tippy-6.2.7/tippy-bundle.umd.min.js","abril-dos-presidenciveis-no-twitter_files/tippy-6.2.7/tippy-light-border.css","abril-dos-presidenciveis-no-twitter_files/tippy-6.2.7/tippy.css","abril-dos-presidenciveis-no-twitter_files/tippy-6.2.7/tippy.umd.min.js","abril-dos-presidenciveis-no-twitter_files/webcomponents-2.0.0/webcomponents.js","Bolsonaro_sentimentos.png","Bolsonaro_wordcloud.png","Ciro_sentimentos.png","Ciro_wordcloud.png","evolucao_tweets_candidatos_abril.png","Lula_sentimentos.png","Lula_wordcloud.png","Most_Frequent_Words_Timeline_Abril.png","TF_IDF_timelines_Abril.png","Tweets_candidatos_abril.png","Tweets_per_candidato_Abril_.png"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -1998,6 +1998,41 @@ Em análise de texto, <em>stop words</em> são palavras bastante comuns tais com
 <blockquote>
 <p>*Fazendo uma busca na plataforma, encontramos tuites direcionados ao ministro da Casa Civil Ciro Nogueira, sendo captados na formação da nuvem do candidato Ciro Gomes nesse mês de abril.</p>
 </blockquote>
+<h3 id="análise-de-sentimentos">Análise de sentimentos</h3>
+<p>O sentimento de cada tuíte foi construído através da identificação dos sentimentos das unidades básicas (as palavras) utilizando os dicionários <code>oplexicon v3.0</code> e <code>sentilex</code>, do pacote <a href="https://cran.r-project.org/web/packages/lexiconPT/index.html"><code>lexiconPT</code></a>. Assim, cada palavra encontrada nos dicionários recebe a nota 1, -1 ou 0, a depender de se o sentimento for positivo, negativo ou neutro, respectivamente. Palavras não encontradas nos dicionários recebem também nota 0. Os valores atribuídos a cada palavra dentro do tuíte foram somados, e a depender do resultado positivo, negativo ou zero, o sentimento do tuíte é classificado como positivo, negativo ou neutro.</p>
+<p>A seguir, é possível observar a nuvem de palavras de cada um dos candidatos, apresentada em separado, segundo os sentimentos atribuídos a cada tuíte. Palavras em verde aparecem nos tuítes classificados como associados a sentimentos positivos, palavras em vermelho aparecem nos tuítes classificados como associados a sentimentos negativos, e palavras em amarelo aparecem nos tuítes classificados como neutros.</p>
+<div class="panelset">
+<section id="bolsonaro-1" class="panel-name panel">
+<h4 class="panel-name">Bolsonaro</h4>
+<center>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="Bolsonaro_sentimentos.png" width="100%" /></p>
+</div>
+</center>
+</section>
+<section id="lula-1" class="panel-name panel">
+<h4 class="panel-name">Lula</h4>
+<center>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="Lula_sentimentos.png" width="100%" /></p>
+</div>
+</center>
+</section>
+<section id="ciro-1" class="panel-name panel">
+<h4 class="panel-name">Ciro</h4>
+<center>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="Ciro_sentimentos.png" width="100%" /></p>
+</div>
+</center>
+</section>
+</div>
+<h4 id="bolsonaro-2">Bolsonaro</h4>
+<p>Os tuítes relacionados ao candidato Bolsonaro que foram classificados como associados a sentimentos positivos estão caracterizados por palavras como Brasil, liberdade, reeleito, supremo, democracia, entre outros. Já os tuites classificados como associados a sentimentos negativos são caracterizados por palavras como corrupção, corrupto, culpa, votar, bandido, governo, tortura, vergonha, horrível, mentiroso, etc. Por último, tuítes considerados como neutros são caracterizados por palavras como presidente, indulto, lula e motociata.</p>
+<h4 id="lula-2">Lula</h4>
+<p>Os tuítes relacionados ao candidato Lula que foram classificados como associados a sentimentos positivos estão caracterizados por palavras como bom, verdade, mundo, sabe, ver, onu, livre, inocente, democracia, humanos, companheiros, direitos, melhor, novo, etc. Já os tuítes classificados como negativos estão caracterizados por palavras como votar, corrupção, presidiário, condenado, prisão, bandido. Por último, os tuítes com sentimento neutro estão caracterizados por palavras como Bolsonaro, Alckmin, socialista, internacional, cristão, advogados.</p>
+<h4 id="ciro-2">Ciro</h4>
+<p>Os tuítes relacionados ao candidato Ciro que foram classificados como associados a sentimentos positivos estão caracterizados por palavras como convocação, aprovados, todos, pf, ver, etc. Já os tuítes classificados como negativos estão caracterizados por palavras como Bolsonaro, votar, pensa, corrupção, xingado, ignorado, quadrilhão, agrishow, vaiado, etc. Por último, os tuítes com sentimento neutro estão caracterizados por palavras como Lula, contra, pl, 21, nunca, evento entre outras.</p>
 <h2 id="comentários-finais">Comentários finais</h2>
 <p>A apresentação desse conjunto de dados visa contribuir para interpretações sobre a movimentação no Twitter dos possíveis candidatos nas eleições de 2022, bem como sobre o que se fala a seu respeito nas interações dos usuários da plataforma no mês de abril. Esse é um trabalho de pesquisa em andamento e será aperfeiçoado no transcorrer dos meses até a eleição de 2022.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
