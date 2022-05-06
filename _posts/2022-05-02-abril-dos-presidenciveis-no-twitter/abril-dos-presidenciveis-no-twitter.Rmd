@@ -42,9 +42,9 @@ Cabe ressaltar a disparidade entre o número de seguidores no Twitter dos candid
 - Ciro - 1,3 milhões
 
 
-## Tuites dos candidatos
+## Tuítes dos candidatos
 
-Na Figura 1 abaixo, apresentamos um gráfico com o número de tuites da _timeline_ dos candidatos, dentre os três que fizeram parte de nosso levantamento: Ciro, Lula e Bolsonaro, de acordo com a frequência com que os candidatos tuitaram no mês abril.
+Na Figura 1 abaixo, apresentamos um gráfico com o número de tuítes da _timeline_ dos candidatos, dentre os três que fizeram parte de nosso levantamento: Ciro, Lula e Bolsonaro, de acordo com a frequência com que os candidatos tuitaram no mês abril.
 
 <center>
 ```{r echo = FALSE, out.width = "85%", fig.cap = "Número de tuítes na timeline dos candidatos"}
@@ -60,7 +60,7 @@ knitr::include_graphics("Most_Frequent_Words_Timeline_Abril.png")
 ```
 </center>
 
-A análise das palavras mais frequentes nos tuites da _timeline_ dos candidatos nos permite apresentar um panorama dominante dos assuntos por eles tratados. Enquanto o perfil de Bolsonaro dá destaque aos feitos do governo, em especial os gastos em reais (r) expressos em cifras de milhões e bilhões, o perfil de Lula dá destaque ao povo e traz uma chave positiva, com o termo “bom”. Já o perfil de Ciro, se preocupa em mencionar nominalmente os outros dois candidatos. Por fim, o termo governo é tema comum ao perfil dos três candidatos.
+A análise das palavras mais frequentes nos tuítes da _timeline_ dos candidatos nos permite apresentar um panorama dominante dos assuntos por eles tratados. Enquanto o perfil de Bolsonaro dá destaque aos feitos do governo, em especial os gastos em reais (r) expressos em cifras de milhões e bilhões, o perfil de Lula dá destaque ao povo e traz uma chave positiva, com o termo “bom”. Já o perfil de Ciro, se preocupa em mencionar nominalmente os outros dois candidatos. Por fim, o termo governo é tema comum ao perfil dos três candidatos.
 
 
 
@@ -72,7 +72,7 @@ knitr::include_graphics("TF_IDF_timelines_Abril.png")
 </center>
 
 
-TF-IDF (*term frequency-inverse document frequency*) reflete a frequência das palavras nos tuites da _timeline_ dos candidatos que não são tão frequentes para os três candidatos em geral. Assim:
+TF-IDF (*term frequency-inverse document frequency*) reflete a frequência das palavras nos tuítes da _timeline_ dos candidatos que não são tão frequentes para os três candidatos em geral. Assim:
 
 - O perfil de Lula se destaca pelas ações propositivas, através da ênfase dada ao uso de verbos como “fazer, recuperar, reconstruir”.
 - O perfil de Bolsonaro apresenta em destaque a palavra “Telegram”, a menção a “ações, bilhões e títulos”, bem como a ênfase em “redução”, procurando comparar o que seu governo realizou entre 2019 e 2021. 
@@ -85,7 +85,7 @@ Ainda a título de últimas observações, os palavras “ONU, zanin e cristiano
 
 
 
-## Tuites sobre os candidatos
+## Tuítes sobre os candidatos
 
 
 Na sequência, na Figura 4, apresentamos em ordem decrescente (do mais citado ao menos citado), o total de tuítes que mencionaram o nome de cada candidato pesquisado no mês de abril: Bolsonaro, Lula e Ciro.
@@ -112,7 +112,7 @@ knitr::include_graphics("evolucao_tweets_candidatos_abril.png")
 
 A Figura 5 apresenta a evolução diária do número de tuítes a respeito dos candidatos. A superioridade do número de tuítes que mencionam Lula e Bolsonaro em relação ao número de tuítes que mencionam Ciro é indiscutível e persiste ao longo do mês inteiro. Por outro lado, embora o número de tuítes a respeito de Bolsonaro seja, em geral, superior ao número de tuítes sobre o candidato Lula, existem 2 períodos do tempo em que o volume de tuítes sobre Lula supera o volume de tuítes acerca de Bolsonaro.
 
-### Núvem de palavras
+### Nuvem de palavras
 
 <aside>
 Uma nuvem de palavras é uma representação gráfica das palavras mais frequentes dentro de um texto ou conjunto de textos. 
