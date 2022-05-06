@@ -110,20 +110,22 @@ knitr::include_graphics("evolucao_tweets_candidatos_abril.png")
 ```
 </center>
 
-A Figura 5, apresenta a evolução diária do número de tuítes a respeito dos candidatos. A superioriedade do número de tuítes do Lula e Bolsonaro, sobre o número de tuítes de Ciro é indiscutível e persiste ao longo do mês inteiro. Por outro lado, embora o número de tuítes a respeito de Bolsonaro é, em geral, superior ao número de tuítes sobre o candidato Lula, existem 2 períodos do tempo em que o volume de tuítes do Lula supera o volume de tuítes acerca do Bolsonaro.
+A Figura 5 apresenta a evolução diária do número de tuítes a respeito dos candidatos. A superioridade do número de tuítes que mencionam Lula e Bolsonaro em relação ao número de tuítes que mencionam Ciro é indiscutível e persiste ao longo do mês inteiro. Por outro lado, embora o número de tuítes a respeito de Bolsonaro seja, em geral, superior ao número de tuítes sobre o candidato Lula, existem 2 períodos do tempo em que o volume de tuítes sobre Lula supera o volume de tuítes acerca de Bolsonaro.
 
 ### Núvem de palavras
-
-
-Por fim, apresentamos abaixo três nuvens de palavras, onde cada uma corresponde a um candidato. É importante sinalizar que o nome de cada candidato foi retirado da sua própria nuvem, para melhor visualização das palavras a ele associadas. Cabe ressaltar também, que cada nuvem reflete as 100 palavras mais relevantes associadas, excluídas _stop words_, a cada candidato nas interações dos usuários do Twitter no último mês de abril.
-
-
 
 <aside>
 Uma nuvem de palavras é uma representação gráfica das palavras mais frequentes dentro de um texto ou conjunto de textos. 
 </aside>
 
+Por fim, apresentamos abaixo três nuvens de palavras, onde cada uma corresponde a um candidato. É importante sinalizar que o nome de cada candidato foi retirado da sua própria nuvem, para melhor visualização das palavras a ele associadas. Cabe ressaltar também, que cada nuvem reflete as 100 palavras mais relevantes associadas, excluídas _stop words_, a cada candidato nas interações dos usuários do Twitter no último mês de abril.
+
+
 _Clique no nome do candidato para ver a respectiva nuvem de palavras._
+
+<aside>
+Em análise de texto, _stop words_ são palavras bastante comuns tais como "e", "de", "o", etc. Essas palavras não são úteis para as análises e costumam ser removidas antes das análises.
+</aside>
 
 
 ```{r panelset, layout='l-page', echo=FALSE}
@@ -175,8 +177,8 @@ knitr::include_graphics("Ciro_wordcloud.png")
 Ao analisar as nuvens, compartilhamos a primeira impressão de cada uma:
 
 
-- **Bolsonaro:** em primeiro plano as palavras “presidente”, “Brasil”, “Lula” e "governo''; em segundo plano, “indulto”, “Daniel” e “Silveira”, que se associam a “STF”, “povo”, e a palavra “contra”; em terceiro plano, vem “motociata”, “corrupção”, “voto” e “PT”.  Pode-se destacar que, dentre os candidatos investigados, a nuvem de Bolsonaro é mais dispersa e apresenta menos substantivos.
-- **Lula:** em primeiro plano e em igual equivalência aparecem “presidente”, “Alckmin”, “Brasil” e “PT”;  em segundo plano “Moro”, “sobre” e “contra”;  em terceiro plano, “agora”, “diz”, “Ciro”, “povo”, “ONU”, “ladrão” e “votar”. Pode-se destacar que a nuvem de Lula possui maior densidade na frequência observada das palavras, sejam elas verbos, substantivos ou adjetivos, quando comparada às demais.
+- **Bolsonaro:** em primeiro plano, as palavras “presidente”, “Brasil”, “Lula” e "governo''; em segundo plano, “indulto”, “Daniel” e “Silveira”, que se associam a “STF”, “povo”, e a palavra “contra”; em terceiro plano, vem “motociata”, “corrupção”, “voto” e “PT”.  Pode-se destacar que, dentre os candidatos investigados, a nuvem de Bolsonaro é mais dispersa e apresenta menos substantivos.
+- **Lula:** em primeiro plano, e em igual equivalência aparecem “presidente”, “Alckmin”, “Brasil” e “PT”;  em segundo plano “Moro”, “sobre” e “contra”;  em terceiro plano, “agora”, “diz”, “Ciro”, “povo”, “ONU”, “ladrão” e “votar”. Pode-se destacar que a nuvem de Lula possui maior densidade na frequência observada das palavras, sejam elas verbos, substantivos ou adjetivos, quando comparada às demais.
 - **Ciro$^{\ast}$:** em primeiro plano, de modo isolado, destacam-se as referências a “Lula” e “Bolsonaro”; em segundo plano, “Nogueira”, “Brasil”, “turno” e “presidente”; em terceiro plano “agrishow”, “agora”, “votar”, voto”, “PT”, “Doria”, “governo”, “contra” e “diz”. 
 
 > *Fazendo uma busca na plataforma, encontramos tuites direcionados ao ministro da Casa Civil Ciro Nogueira, sendo captados na formação da nuvem do candidato Ciro Gomes nesse mês de abril.
