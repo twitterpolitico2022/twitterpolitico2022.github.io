@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
   <meta name="generator" content="distill" />
-  <link rel="alternate" type="application/rss+xml" href="https://twitterpolitico2022.github.io/index.xml" />
 
   <style type="text/css">
   /* Hide doc at startup (prevent jankiness while JS renders/transforms) */
@@ -87,380 +86,41 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>Twitter Político</title>
+  <title>A primeira quinzena de maio dos presidenciáveis no twitter</title>
 
-  <meta property="description" itemprop="description" content="Um blog para acompanhar o cenário político brasileiro nas eleições presidenciais 2022 através do twitter e da análise de dados."/>
+  <meta property="description" itemprop="description" content="Saiba o que tuitam e como são tuitados os presidenciáveis."/>
 
 
+  <!--  https://schema.org/Article -->
+  <meta property="article:published" itemprop="datePublished" content="2022-05-24"/>
+  <meta property="article:created" itemprop="dateCreated" content="2022-05-24"/>
+  <meta name="article:author" content="Marcelo Castañeda"/>
+  <meta name="article:author" content="Alessandra Maia"/>
+  <meta name="article:author" content="Carlos Trucíos"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Twitter Político"/>
+  <meta property="og:title" content="A primeira quinzena de maio dos presidenciáveis no twitter"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Um blog para acompanhar o cenário político brasileiro nas eleições presidenciais 2022 através do twitter e da análise de dados."/>
+  <meta property="og:description" content="Saiba o que tuitam e como são tuitados os presidenciáveis."/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="Twitter Político"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Twitter Político"/>
-  <meta property="twitter:description" content="Um blog para acompanhar o cenário político brasileiro nas eleições presidenciais 2022 através do twitter e da análise de dados."/>
-  <meta property="twitter:site" content="@twiter_politico"/>
+  <meta property="twitter:title" content="A primeira quinzena de maio dos presidenciáveis no twitter"/>
+  <meta property="twitter:description" content="Saiba o que tuitam e como são tuitados os presidenciáveis."/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","site","listing"]}},"value":[{"type":"character","attributes":{},"value":["Twitter Político"]},{"type":"character","attributes":{},"value":["Um blog para acompanhar o cenário político brasileiro nas eleições presidenciais 2022 através do twitter e da análise de dados.\n"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"character","attributes":{},"value":["posts"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["A primeira quinzena de maio dos presidenciáveis no twitter"]},{"type":"character","attributes":{},"value":["Saiba o que tuitam e como são tuitados os presidenciáveis. \n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation"]}},"value":[{"type":"character","attributes":{},"value":["Marcelo Castañeda"]},{"type":"character","attributes":{},"value":["https://twitter.com/celocastaneda"]},{"type":"character","attributes":{},"value":["Universidade Federal do Rio de Janeiro"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation"]}},"value":[{"type":"character","attributes":{},"value":["Alessandra Maia"]},{"type":"character","attributes":{},"value":["https://twitter.com/amaiatfaria"]},{"type":"character","attributes":{},"value":["Pontifícia Universidade Católica do Rio de Janeiro"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation"]}},"value":[{"type":"character","attributes":{},"value":["Carlos Trucíos"]},{"type":"character","attributes":{},"value":["https://ctruciosm.github.io/"]},{"type":"character","attributes":{},"value":["Universidade Federal do Rio de Janeiro"]}]}]},{"type":"character","attributes":{},"value":["05-24-2022"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","fig_caption"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
-  <!--radix_placeholder_navigation_in_header-->
-  <meta name="distill:offset" content=""/>
-
-  <script type="application/javascript">
-
-    window.headroom_prevent_pin = false;
-
-    window.document.addEventListener("DOMContentLoaded", function (event) {
-
-      // initialize headroom for banner
-      var header = $('header').get(0);
-      var headerHeight = header.offsetHeight;
-      var headroom = new Headroom(header, {
-        tolerance: 5,
-        onPin : function() {
-          if (window.headroom_prevent_pin) {
-            window.headroom_prevent_pin = false;
-            headroom.unpin();
-          }
-        }
-      });
-      headroom.init();
-      if(window.location.hash)
-        headroom.unpin();
-      $(header).addClass('headroom--transition');
-
-      // offset scroll location for banner on hash change
-      // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
-      window.addEventListener("hashchange", function(event) {
-        window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
-      });
-
-      // responsive menu
-      $('.distill-site-header').each(function(i, val) {
-        var topnav = $(this);
-        var toggle = topnav.find('.nav-toggle');
-        toggle.on('click', function() {
-          topnav.toggleClass('responsive');
-        });
-      });
-
-      // nav dropdowns
-      $('.nav-dropbtn').click(function(e) {
-        $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
-        $(this).parent().siblings('.nav-dropdown')
-           .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $("body").click(function(e){
-        $('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $(".nav-dropdown").click(function(e){
-        e.stopPropagation();
-      });
-    });
+  
+  <script type="text/json" id="radix-resource-manifest">
+  {"type":"character","attributes":{},"value":["Bolsonaro_bigrams.png","bolsonaro_sentiments.jpeg","Bolsonaro_wordcloud.png","Ciro_bigrams.png","Ciro_sentimentos.jpeg","Ciro_wordcloud.png","evolucao_tweets_candidatos_maio1.png","Lula_bigrams.png","lula_sentiments.jpeg","Lula_wordcloud.png","maio-dos-presidenciveis-no-twitter-parte-i_files/anchor-4.2.2/anchor.min.js","maio-dos-presidenciveis-no-twitter-parte-i_files/bowser-1.9.3/bowser.min.js","maio-dos-presidenciveis-no-twitter-parte-i_files/distill-2.2.21/template.v2.js","maio-dos-presidenciveis-no-twitter-parte-i_files/header-attrs-2.9/header-attrs.js","maio-dos-presidenciveis-no-twitter-parte-i_files/jquery-1.11.3/jquery.min.js","maio-dos-presidenciveis-no-twitter-parte-i_files/panelset-0.2.6/panelset.css","maio-dos-presidenciveis-no-twitter-parte-i_files/panelset-0.2.6/panelset.js","maio-dos-presidenciveis-no-twitter-parte-i_files/popper-2.6.0/popper.min.js","maio-dos-presidenciveis-no-twitter-parte-i_files/tippy-6.2.7/tippy-bundle.umd.min.js","maio-dos-presidenciveis-no-twitter-parte-i_files/tippy-6.2.7/tippy-light-border.css","maio-dos-presidenciveis-no-twitter-parte-i_files/tippy-6.2.7/tippy.css","maio-dos-presidenciveis-no-twitter-parte-i_files/tippy-6.2.7/tippy.umd.min.js","maio-dos-presidenciveis-no-twitter-parte-i_files/webcomponents-2.0.0/webcomponents.js","Most_Frequent_Words_Timeline_Maio1.png","TF_IDF_timelines_Maio1.png","Tweets_candidatos_maio1.png","Tweets_per_candidato_Maio1_.png","Tweets_sentimentos_candidatos_maio1.png"]}
   </script>
-
-  <style type="text/css">
-
-  /* Theme (user-documented overrideables for nav appearance) */
-
-  .distill-site-nav {
-    color: rgba(255, 255, 255, 0.8);
-    background-color: #0F2E3D;
-    font-size: 15px;
-    font-weight: 300;
-  }
-
-  .distill-site-nav a {
-    color: inherit;
-    text-decoration: none;
-  }
-
-  .distill-site-nav a:hover {
-    color: white;
-  }
-
-  @media print {
-    .distill-site-nav {
-      display: none;
-    }
-  }
-
-  .distill-site-header {
-
-  }
-
-  .distill-site-footer {
-
-  }
-
-
-  /* Site Header */
-
-  .distill-site-header {
-    width: 100%;
-    box-sizing: border-box;
-    z-index: 3;
-  }
-
-  .distill-site-header .nav-left {
-    display: inline-block;
-    margin-left: 8px;
-  }
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header .nav-left {
-      margin-left: 0;
-    }
-  }
-
-
-  .distill-site-header .nav-right {
-    float: right;
-    margin-right: 8px;
-  }
-
-  .distill-site-header a,
-  .distill-site-header .title {
-    display: inline-block;
-    text-align: center;
-    padding: 14px 10px 14px 10px;
-  }
-
-  .distill-site-header .title {
-    font-size: 18px;
-    min-width: 150px;
-  }
-
-  .distill-site-header .logo {
-    padding: 0;
-  }
-
-  .distill-site-header .logo img {
-    display: none;
-    max-height: 20px;
-    width: auto;
-    margin-bottom: -4px;
-  }
-
-  .distill-site-header .nav-image img {
-    max-height: 18px;
-    width: auto;
-    display: inline-block;
-    margin-bottom: -3px;
-  }
-
-
-
-  @media screen and (min-width: 1000px) {
-    .distill-site-header .logo img {
-      display: inline-block;
-    }
-    .distill-site-header .nav-left {
-      margin-left: 20px;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 20px;
-    }
-    .distill-site-header .title {
-      padding-left: 12px;
-    }
-  }
-
-
-  .distill-site-header .nav-toggle {
-    display: none;
-  }
-
-  .nav-dropdown {
-    display: inline-block;
-    position: relative;
-  }
-
-  .nav-dropdown .nav-dropbtn {
-    border: none;
-    outline: none;
-    color: rgba(255, 255, 255, 0.8);
-    padding: 16px 10px;
-    background-color: transparent;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    margin: 0;
-    margin-top: 1px;
-    z-index: 2;
-  }
-
-  .nav-dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 200px;
-    border: 1px solid rgba(0,0,0,0.15);
-    border-radius: 4px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
-    z-index: 1;
-    margin-top: 2px;
-    white-space: nowrap;
-    padding-top: 4px;
-    padding-bottom: 4px;
-  }
-
-  .nav-dropdown-content hr {
-    margin-top: 4px;
-    margin-bottom: 4px;
-    border: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  }
-
-  .nav-dropdown-active {
-    display: block;
-  }
-
-  .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
-    color: black;
-    padding: 6px 24px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-
-  .nav-dropdown-content .nav-dropdown-header {
-    display: block;
-    padding: 5px 24px;
-    padding-bottom: 0;
-    text-transform: uppercase;
-    font-size: 14px;
-    color: #999999;
-    white-space: nowrap;
-  }
-
-  .nav-dropdown:hover .nav-dropbtn {
-    color: white;
-  }
-
-  .nav-dropdown-content a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
-  .nav-right .nav-dropdown-content {
-    margin-left: -45%;
-    right: 0;
-  }
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
-    .distill-site-header a.nav-toggle {
-      float: right;
-      display: block;
-    }
-    .distill-site-header .title {
-      margin-left: 0;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 0;
-    }
-    .distill-site-header {
-      overflow: hidden;
-    }
-    .nav-right .nav-dropdown-content {
-      margin-left: 0;
-    }
-  }
-
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header.responsive {position: relative; min-height: 500px; }
-    .distill-site-header.responsive a.nav-toggle {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .distill-site-header.responsive a,
-    .distill-site-header.responsive .nav-dropdown {
-      display: block;
-      text-align: left;
-    }
-    .distill-site-header.responsive .nav-left,
-    .distill-site-header.responsive .nav-right {
-      width: 100%;
-    }
-    .distill-site-header.responsive .nav-dropdown {float: none;}
-    .distill-site-header.responsive .nav-dropdown-content {position: relative;}
-    .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
-      display: block;
-      width: 100%;
-      text-align: left;
-    }
-  }
-
-  /* Site Footer */
-
-  .distill-site-footer {
-    width: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-    z-index: 3;
-    margin-top: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-  }
-
-  /* Headroom */
-
-  d-title {
-    padding-top: 6rem;
-  }
-
-  @media print {
-    d-title {
-      padding-top: 4rem;
-    }
-  }
-
-  .headroom {
-    z-index: 1000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-
-  .headroom--transition {
-    transition: all .4s ease-in-out;
-  }
-
-  .headroom--unpinned {
-    top: -100px;
-  }
-
-  .headroom--pinned {
-    top: 0;
-  }
-
-  /* adjust viewport for navbar height */
-  /* helps vertically center bootstrap (non-distill) content */
-  .min-vh-100 {
-    min-height: calc(100vh - 100px) !important;
-  }
-
-  </style>
-
-  <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
-  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
-  <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
+  <!--radix_placeholder_navigation_in_header-->
   <!--/radix_placeholder_navigation_in_header-->
   <!--radix_placeholder_distill-->
 
@@ -1776,266 +1436,225 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
-  <meta name="twitter:title" content="Twitter Político"/>
-  <meta name="twitter:description" content="Um blog para acompanhar o cenário político brasileiro nas eleições presidenciais 2022 através do twitter e da análise de dados."/>
-  <meta name="twitter:url" content="https://twitterpolitico2022.github.io/"/>
-  <meta name="twitter:card" content="summary"/>
-  <meta property="og:title" content="Twitter Político"/>
-  <meta property="og:description" content="Um blog para acompanhar o cenário político brasileiro nas eleições presidenciais 2022 através do twitter e da análise de dados."/>
-  <meta property="og:url" content="https://twitterpolitico2022.github.io/"/>
-  <meta property="og:type" content="website"/>
-  <meta property="og:locale" content="en_US"/>
-  <script src="site_libs/popper-2.6.0/popper.min.js"></script>
-  <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
-  <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
-  <script src="site_libs/tippy-6.2.7/tippy.umd.min.js"></script>
-  <script src="site_libs/anchor-4.2.2/anchor.min.js"></script>
-  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
-  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
-  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
+  <script src="maio-dos-presidenciveis-no-twitter-parte-i_files/header-attrs-2.9/header-attrs.js"></script>
+  <link href="maio-dos-presidenciveis-no-twitter-parte-i_files/panelset-0.2.6/panelset.css" rel="stylesheet" />
+  <script src="maio-dos-presidenciveis-no-twitter-parte-i_files/panelset-0.2.6/panelset.js"></script>
+  <script src="maio-dos-presidenciveis-no-twitter-parte-i_files/jquery-1.11.3/jquery.min.js"></script>
+  <script src="maio-dos-presidenciveis-no-twitter-parte-i_files/popper-2.6.0/popper.min.js"></script>
+  <link href="maio-dos-presidenciveis-no-twitter-parte-i_files/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="maio-dos-presidenciveis-no-twitter-parte-i_files/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="maio-dos-presidenciveis-no-twitter-parte-i_files/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="maio-dos-presidenciveis-no-twitter-parte-i_files/anchor-4.2.2/anchor.min.js"></script>
+  <script src="maio-dos-presidenciveis-no-twitter-parte-i_files/bowser-1.9.3/bowser.min.js"></script>
+  <script src="maio-dos-presidenciveis-no-twitter-parte-i_files/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="maio-dos-presidenciveis-no-twitter-parte-i_files/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
   <!--/radix_placeholder_site_in_header-->
 
 
 </head>
 
-<body class="layout-listing">
+<body>
 
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Twitter Político","description":"Um blog para acompanhar o cenário político brasileiro nas eleições presidenciais 2022 através do twitter e da análise de dados.","authors":[]}
+{"title":"A primeira quinzena de maio dos presidenciáveis no twitter","description":"Saiba o que tuitam e como são tuitados os presidenciáveis.","authors":[{"author":"Marcelo Castañeda","authorURL":"https://twitter.com/celocastaneda","affiliation":"Universidade Federal do Rio de Janeiro","affiliationURL":"#","orcidID":""},{"author":"Alessandra Maia","authorURL":"https://twitter.com/amaiatfaria","affiliation":"Pontifícia Universidade Católica do Rio de Janeiro","affiliationURL":"#","orcidID":""},{"author":"Carlos Trucíos","authorURL":"https://ctruciosm.github.io/","affiliation":"Universidade Federal do Rio de Janeiro","affiliationURL":"#","orcidID":""}],"publishedDate":"2022-05-24T00:00:00.000+00:00","citationText":"Castañeda, et al., 2022"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
 <!--radix_placeholder_navigation_before_body-->
-<header class="header header--fixed" role="banner">
-<nav class="distill-site-nav distill-site-header">
-<div class="nav-left">
-<a href="index.html" class="title">Twitter Político</a>
-</div>
-<div class="nav-right">
-<a href="index.html">Posts</a>
-<a href="sobre.html">Sobre</a>
-<a href="https://twitter.com/twiter_politico">
-<i class="fab fa-twitter" aria-hidden="true"></i>
-</a>
-<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
-</div>
-</nav>
-</header>
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
-<!--radix_placeholder_article_listing-->
-
-
-<script type="application/javascript">
-
-function init_posts_list() {
-
-  function load_image(img) {
-    var src = $(img).attr('data-src');
-    if (src) {
-      $(img).attr('src', src);
-      $(img).load(function() {
-        img.removeAttribute('data-src');
-      });
-    }
-  }
-
-  function set_posts_visible(posts, visible) {
-    if (visible) {
-
-      // show bottom border by default
-      $(posts).removeClass('post-preview-last');
-
-      // apply limits if need be
-      var max_posts = 25;
-      var apply_limits = $('.posts-container').hasClass('posts-apply-limit');
-      if (apply_limits && posts.length > max_posts) {
-        posts = $(posts).slice(0, max_posts);
-      } else {
-        $('.posts-more a').addClass('hidden');
-      }
-
-      // apply last style
-      $(posts.slice(-1)[0]).addClass('post-preview-last');
-
-      $(posts).removeClass('hidden');
-      $(posts).find('img[data-src]').each(function(i, img) {
-        load_image(img);
-      });
-    } else {
-      $(posts).addClass('hidden');
-    }
-  }
-
-  function apply_hash_filter() {
-
-    // clear active state
-    $('.categories .active').removeClass('active');
-
-    // mark all posts invisible to start
-    set_posts_visible($('.posts-list').children('a'), false);
-
-    // if we have a hash filter
-    if (window.location.hash && window.location.hash.startsWith("#category:")) {
-
-      // mark posts that match the category visible
-      var page_category = window.location.hash.replace(/^#category:/, "");
-      var posts = $('.post-metadata').map(function(idx, script) {
-        var metadata = $.parseJSON($(script).html());
-        var post = null;
-        $.each(metadata.categories, function(idx, category) {
-          category = category.replace(/ /g,"_");
-          if ((page_category || '').toLowerCase() === "articles" || category === page_category) {
-            post = $(script).parent().get();
-            return false;
-          }
-        });
-        return post;
-      });
-      set_posts_visible(posts, true);
-
-      // mark the hash active
-      $('.categories li>a[href="' + window.location.hash + '"]').addClass('active');
-
-      // update the list_caption
-      var list_caption = $('.posts-list-caption');
-      var caption = (page_category || '').toLowerCase() === "articles"
-        ? list_caption.attr('data-caption')
-        : ('Category: ' + page_category.replace(/_/g," "));
-      list_caption.text(caption);
-
-    } else {
-
-      // no hash filter, make all posts visible (subject to max display)
-      set_posts_visible($('.posts-list').children(), true);
-
-      // reset list caption
-      var list_caption = $('.posts-list-caption');
-      list_caption.text(list_caption.attr('data-caption'));
-
-
-    }
-  }
-
-  // more articles
-  function apply_post_limits(apply) {
-    if (apply) {
-      $('.posts-container').addClass('posts-apply-limit');
-      $('.posts-more a').removeClass('hidden');
-    } else {
-      $('.posts-container').removeClass('posts-apply-limit');
-      $('.posts-more a').addClass('hidden');
-    }
-  }
-
-  // click handling for tags
-  $('.dt-tag').click(function(ev) {
-    window.location.hash = '#category:' + $(this).text().replace(/ /g, "_");
-    return false;
-  })
-
-  // hash filter handling
-  apply_hash_filter();
-  $(window).on('hashchange',function() {
-    apply_post_limits(true);
-    apply_hash_filter();
-  });
-
-  // more articles link
-  $('.posts-more a').click(function(e) {
-    e.preventDefault();
-    apply_post_limits(false);
-    apply_hash_filter();
-    return false;
-  });
-
-}
-
-</script>
-
-
-
-<div class="posts-container posts-apply-limit l-page">
-<div class="posts-list">
-<h1 class="posts-list-caption" data-caption="Twitter Político">Twitter Político</h1>
-<a href="posts/2022-05-24-maio-dos-presidenciveis-no-twitter-parte-i/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">May 24, 2022</div>
-<div class="dt-authors">
-<div class="dt-author">Marcelo Castañeda</div>
-<div class="dt-author">Alessandra Maia</div>
-<div class="dt-author">Carlos Trucíos</div>
-</div>
-</div>
-<div class="thumbnail">
-<img src="posts/2022-05-24-maio-dos-presidenciveis-no-twitter-parte-i/Tweets_per_candidato_Maio1_.png"/>
-</div>
-<div class="description">
-<h2>A primeira quinzena de maio dos presidenciáveis no twitter</h2>
-<div class="dt-tags"></div>
-<p>Saiba o que tuitam e como são tuitados os presidenciáveis.</p>
-</div>
-</a>
-<a href="posts/2022-05-02-abril-dos-presidenciveis-no-twitter/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
-<div class="dt-authors">
-<div class="dt-author">Marcelo Castañeda</div>
-<div class="dt-author">Alessandra Maia</div>
-<div class="dt-author">Carlos Trucíos</div>
-</div>
-</div>
-<div class="thumbnail">
-<img src="posts/2022-05-02-abril-dos-presidenciveis-no-twitter/Tweets_per_candidato_Abril_.png"/>
-</div>
-<div class="description">
-<h2>Abril dos presidenciáveis no Twitter</h2>
-<div class="dt-tags"></div>
-<p>Saiba o que tuitam e como são tuitados os presidenciáveis.</p>
-</div>
-</a>
-<a href="posts/2022-03-11-a-semana-dos-presidenciveis-no-twitter-4-a-103/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">March 11, 2022</div>
-<div class="dt-authors">
-<div class="dt-author">Marcelo Castañeda</div>
-<div class="dt-author">Alessandra Maia</div>
-<div class="dt-author">Carlos Trucíos</div>
-</div>
-</div>
-<div class="thumbnail">
-<img src="posts/2022-03-11-a-semana-dos-presidenciveis-no-twitter-4-a-103/Tweets_per_candidato_2022-03-04_2022-03-10.png"/>
-</div>
-<div class="description">
-<h2>A semana dos presidenciáveis no Twitter (4 a 10/3)</h2>
-<div class="dt-tags"></div>
-<p>Saiba o que tuitam e como são tuitados os presidenciáveis.</p>
-</div>
-</a>
-</div>
-<div class="posts-more">
-<a href="#">More articles &raquo;</a>
-</div>
-</div>
-<!--/radix_placeholder_article_listing-->
 
 <div class="d-title">
-<h1>Twitter Político</h1>
+<h1>A primeira quinzena de maio dos presidenciáveis no twitter</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Um blog para acompanhar o cenário político brasileiro nas eleições presidenciais 2022 através do twitter e da análise de dados.</p></p>
+<p><p>Saiba o que tuitam e como são tuitados os presidenciáveis.</p></p>
 </div>
 
+<div class="d-byline">
+  Marcelo Castañeda <a href="https://twitter.com/celocastaneda" class="uri">https://twitter.com/celocastaneda</a> (Universidade Federal do Rio de Janeiro)
+  
+,   Alessandra Maia <a href="https://twitter.com/amaiatfaria" class="uri">https://twitter.com/amaiatfaria</a> (Pontifícia Universidade Católica do Rio de Janeiro)
+  
+,   Carlos Trucíos <a href="https://ctruciosm.github.io/" class="uri">https://ctruciosm.github.io/</a> (Universidade Federal do Rio de Janeiro)
+  
+<br/>05-24-2022
+</div>
 
 <div class="d-article">
+<h2 id="como-os-dados-foram-extraídos">Como os dados foram extraídos</h2>
+<p>Para cada candidato, foram coletados tuítes referentes a cada um dos primeiros 15 dias do mês de maio, totalizando mais de 7 milhões de tuítes. Os dados foram extraídos através de uma API do twitter utilizada exclusivamente para fins acadêmicos e analisados utilizando o software R.</p>
+<aside>
+Os autores agradecem ao Twitter pelas contas acadêmicas a eles concedidas.
+</aside>
+<h2 id="número-de-seguidores">Número de seguidores</h2>
+<p>A seguir, apresentamos o número atualizado (maio, 2022) de seguidores no Twitter de cada um dos candidatos.</p>
+<ul>
+<li><strong>Bolsonaro</strong> - 8 milhões (acréscimo de 2,5% de seguidores em relação ao boletim anterior)</li>
+<li><strong>Lula</strong> - 3,5 milhões ( acréscimo de 2,9% de seguidores em relação ao boletim anterior)</li>
+<li><strong>Ciro</strong> - 1,3 milhões (não foi verificada alteração)</li>
+</ul>
+<h2 id="tuites-dos-candidatos">Tuites dos candidatos</h2>
+<p>Na Figura 1 abaixo, apresentamos um gráfico com o número de tuítes da timeline dos candidatos, dentre os três que fizeram parte de nosso levantamento: Ciro, Lula e Bolsonaro, de acordo com a frequência com que os candidatos tuitaram na primeira quinzena do mês de maio.</p>
+<center>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure"><span id="fig:unnamed-chunk-1"></span>
+<img src="Tweets_per_candidato_Maio1_.png" alt="Número de tuítes na timeline dos candidatos" width="85%" />
+<p class="caption">
+Figure 1: Número de tuítes na timeline dos candidatos
+</p>
+</div>
+</div>
+</center>
+<p>As Figuras 2 e 3 apresentam as palavras mais frequentes nos tuítes da timeline dos candidatos e as palavras mais frequentes nos tuítes da timeline dos candidatos que não foram tão frequentes nos tuítes da timeline dos outros candidatos, respectivamente.</p>
+<center>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure"><span id="fig:unnamed-chunk-2"></span>
+<img src="Most_Frequent_Words_Timeline_Maio1.png" alt="Palavras mais frequentes na timeline dos candidatos" width="100%" />
+<p class="caption">
+Figure 2: Palavras mais frequentes na timeline dos candidatos
+</p>
+</div>
+</div>
+</center>
+<center>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure"><span id="fig:unnamed-chunk-3"></span>
+<img src="TF_IDF_timelines_Maio1.png" alt="TF-IDF da timeline dos candidados" width="100%" />
+<p class="caption">
+Figure 3: TF-IDF da timeline dos candidados
+</p>
+</div>
+</div>
+</center>
+<p>A análise das palavras mais frequentes nos tuítes da timeline dos candidatos (Figura 2) nos permite apresentar um panorama dominante dos assuntos por eles tratados. No perfil de Bolsonaro é possível apontar uma continuidade, em relação ao mês de abril, com destaque aos feitos do governo, em especial, aos gastos em reais (r) expressos em cifras de milhões. A novidade surge na menção ao termo “impostos” associado a essas cifras. Já o perfil de Lula traz em destaque palavras como país, Brasil, povo, todos, pessoas e o enfoque no momento de “hoje”. No perfil de Ciro, se mantém a preocupação em mencionar nominalmente os outros dois candidatos, mas na primeira quinzena de maio, é possível notar menções ao povo, hoje, Brasil, gente e Petrobrás. Por fim, o termo Brasil é uma menção comum observável no perfil dos três candidatos.</p>
+<p>Na Figura 3, TF-IDF (term frequency-inverse document frequency) reflete a frequência das palavras nos tuites da timeline dos candidatos que não são tão frequentes para os três candidatos em geral. Assim:</p>
+<ul>
+<li><p>No perfil de Lula, há uma continuidade nas ações propositivas com mais qualificações, através da ênfase dada ao uso de verbos como “defender, ter, recuperar, reconstruir, estudar e cuidar”. Surgem novos substantivos como “soberania” e “universidades”.</p></li>
+<li><p>O perfil de Bolsonaro apresenta em destaque os termos “impostos”, “contratação”, “medidas” e “entrega”. A referência ao ano de 2019 se mantém em relação ao encontrado em abril.</p></li>
+<li><p>No perfil de Ciro, a ênfase é dada às ações como “assista” e “participe”, e aos termos “debate”, “Leonel”.</p></li>
+</ul>
+<h2 id="tuites-sobre-os-candidatos">Tuites sobre os candidatos</h2>
+<p>Na sequência, na Figura 4, apresentamos em ordem decrescente (do mais citado ao menos citado), o total de tuítes que mencionaram o nome de cada candidato pesquisado na primeira quinzena do mês de maio: Lula, Bolsonaro e Ciro.</p>
+<aside>
+Para coletar os tuites mencionando os respectivos candidatos, foram utilizados como critério de busca as palavras “Bolsonaro”, “Ciro” e “Lula”. Tuítes mencionando “Ciro Nogueira” foram excluidos das análises referentes ao candidato Ciro.
+</aside>
+<center>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure"><span id="fig:unnamed-chunk-4"></span>
+<img src="Tweets_candidatos_maio1.png" alt="Total de tuítes sobre os candidatos" width="85%" />
+<p class="caption">
+Figure 4: Total de tuítes sobre os candidatos
+</p>
+</div>
+</div>
+</center>
+<p>Para coletar os tuítes mencionando os respectivos candidatos, foram utilizados como critério de busca as palavras “Lula”, “Bolsonaro” e “Ciro”. Em relação ao mês de abril, se reverteu a tendência anterior. É possível destacar que no mês de maio às menções a Lula ultrapassam o número de menções a Bolsonaro, no universo do que foi observado na rede social Twitter.</p>
+<p>Na evolução diária do número de tuítes (Figura 5), pode-se observar que, à exceção dos dias 3 e 5, o número de menções a Lula é superior ao número de menções a Bolsonaro, na primeira semana do mês. Já na segunda semana, apenas nos dias 8 e 11 este mesmo fenômeno acontece, sendo observado o aumento no número de tuítes com menções a Bolsonaro, se considerado Lula, mas com uma distância inferior à observada na primeira semana.</p>
+<center>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure"><span id="fig:unnamed-chunk-5"></span>
+<img src="evolucao_tweets_candidatos_maio1.png" alt="Evolução diária da quantitate de tuítes sobre os candidatos" width="85%" />
+<p class="caption">
+Figure 5: Evolução diária da quantitate de tuítes sobre os candidatos
+</p>
+</div>
+</div>
+</center>
+<h3 id="nuvem-de-palavras">Nuvem de palavras</h3>
+<aside>
+Uma nuvem de palavras é uma representação gráfica das palavras mais frequentes dentro de um texto ou conjunto de textos.
+</aside>
+<p>A seguir, apresentamos três nuvens de palavras, onde cada uma corresponde a um candidato. É importante sinalizar que o nome de cada candidato foi retirado da sua própria nuvem, para melhor visualização das palavras associadas. Cabe ressaltar também, que cada nuvem reflete as 100 palavras mais relevantes associadas, excluídas stop words, a cada candidato nas interações dos usuários do Twitter nos últimos quinze dias do mês de abril.</p>
+<p><em>Clique no nome do candidato para ver a respectiva nuvem de palavras.</em></p>
+<aside>
+Em análise de texto, <em>stop words</em> são palavras bastante comuns tais como “e”, “de”, “o”, etc. Essas palavras não são úteis para as análises e costumam ser removidas antes das análises.
+</aside>
+<div class="layout-chunk" data-layout="l-page">
+<p><style>.panelset{--panel-tab-foreground: honeydew;--panel-tab-background: #0F2E3D;}</style></p>
+</div>
+<div class="panelset">
+<section id="bolsonaro" class="panel-name panel">
+<h4 class="panel-name">Bolsonaro</h4>
+<center>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="Bolsonaro_wordcloud.png" width="70%" /></p>
+</div>
+</center>
+</section>
+<section id="lula" class="panel-name panel">
+<h4 class="panel-name">Lula</h4>
+<center>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="Lula_wordcloud.png" width="90%" /></p>
+</div>
+</center>
+</section>
+<section id="ciro" class="panel-name panel">
+<h4 class="panel-name">Ciro</h4>
+<center>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="Ciro_wordcloud.png" width="80%" /></p>
+</div>
+</center>
+</section>
+</div>
+<p>Ao analisar as nuvens, compartilhamos a primeira impressão de cada uma:</p>
+<ul>
+<li><strong>Bolsonaro:</strong> em primeiro plano, as palavras “presidente”, “Brasil”, “Lula” e “governo’’ se mantiveram sem alterações. Em segundo plano, “agora”, “contra”, “sobre”, “povo”, “hoje”; e, em terceiro plano, vem “primeiro”, “turno”, “eleições”, “Moraes”, “2022” e “todos” .</li>
+<li><strong>Lula:</strong> em primeiro plano aparecem “presidente” e “Brasil”; em segundo plano “time”, “PT”, “povo”, “campanha”, “gente”, “turno”, “sobre”; em terceiro plano, “Daniela”, “Mercury”, “Alckmin”, “ex”, “capa” e “votar”. Vale observar que a menção à palavra “capa” ocorre na semana em que o ex-presidente Lula é capa da revista Time.</li>
+<li><strong>Ciro:</strong> a tendência se manteve em primeiro plano, de modo isolado, destacam-se as referências a “Lula” e “Bolsonaro”; em segundo plano, “turno”, “Brasil”, “votar” e “voto”; em terceiro plano “coco”, “bambu”, “Doria”, “voto”, “primeiro”, “segundo” e “pesquisa”.</li>
+</ul>
+<h3 id="análise-de-sentimentos">Análise de sentimentos</h3>
+<p>O sentimento de cada tuíte foi construído através da identificação dos sentimentos das unidades básicas (as palavras) utilizando os dicionários oplexicon v3.0 e sentilex, do pacote lexiconPT. Assim, cada palavra encontrada nos dicionários recebe a nota 1, -1 ou 0, a depender de se o sentimento for positivo, negativo ou neutro, respectivamente. Palavras não encontradas nos dicionários recebem também nota 0. Os valores atribuídos a cada palavra dentro do tuíte foram somados, e a depender do resultado positivo, negativo ou zero, o sentimento do tuíte é classificado como positivo, negativo ou neutro. Na Figura 9 são apresentados os sentimentos (Negativo, Neutro e Positivo) percentualmente por candidato. É possível destacar um equilíbrio entre os sentimentos expressos nos tuítes dos três candidatos. Tais dados serão acompanhados ao longo do tempo comparativamente. Esse é um retrato, um instantâneo sentimental da primeira quinzena de maio.</p>
+<center>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure"><span id="fig:unnamed-chunk-9"></span>
+<img src="Tweets_sentimentos_candidatos_maio1.png" alt="Sentimentos dos tuítes por candidato" width="85%" />
+<p class="caption">
+Figure 6: Sentimentos dos tuítes por candidato
+</p>
+</div>
+</div>
+</center>
+<p>A seguir, é possível observar a nuvem de palavras de cada um dos candidatos, apresentadas em separado, segundo os sentimentos atribuídos a cada tuíte. Palavras em verde aparecem nos tuítes classificados como associados a sentimentos positivos, palavras em vermelho aparecem nos tuítes classificados como associados a sentimentos negativos, e palavras em amarelo aparecem nos tuítes classificados como neutros.</p>
+<div class="panelset">
+<section id="bolsonaro-1" class="panel-name panel">
+<h4 class="panel-name">Bolsonaro</h4>
+<center>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="bolsonaro_sentiments.jpeg" width="100%" /></p>
+</div>
+</center>
+</section>
+<section id="lula-1" class="panel-name panel">
+<h4 class="panel-name">Lula</h4>
+<center>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="lula_sentiments.jpeg" width="100%" /></p>
+</div>
+</center>
+</section>
+<section id="ciro-1" class="panel-name panel">
+<h4 class="panel-name">Ciro</h4>
+<center>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="Ciro_sentimentos.jpeg" width="100%" /></p>
+</div>
+</center>
+</section>
+</div>
+<ul>
+<li><strong>Bolsonaro:</strong> Os tuítes relacionados ao candidato Bolsonaro que foram classificados como associados a sentimentos positivos estão caracterizados por palavras como bom, presidente, reeleito e santa, entre outros. Já os tuites classificados como associados a sentimentos negativos são caracterizados por palavras como votar, culpa, cara, medo,, etc. Por último, tuítes considerados como neutros são caracterizados por palavras como tirar, governo e urgente.</li>
+<li><strong>Lula:</strong> Os tuítes relacionados ao candidato Lula que foram classificados como associados a sentimentos positivos estão caracterizados por palavras como segurança, importante, favor, bom, mundo, voto, etc. Já os tuítes classificados como negativos estão caracterizados por palavras como votar, cara, culpa, XP, dar, medo. Por último, os tuítes com sentimento neutro estão caracterizados por palavras como showmício, candidatura, Daniela, Mercury, mesma.</li>
+<li><strong>Ciro:</strong> Os tuítes relacionados ao candidato Ciro que foram classificados como associados a sentimentos positivos estão caracterizados por palavras como Doria, sabe, melhor, votar, Coco, etc. Já os tuítes classificados como negativos estão caracterizados por palavras como Bolsonaro, votar, cara, como, vagabundo, etc. Por último, os tuítes com sentimento neutro estão caracterizados por palavras como Lula, Tebet, emplacou, bolsonaro, entre outras.</li>
+</ul>
+<h2 id="comentários-finais">Comentários finais</h2>
+<p>A apresentação desse conjunto de dados visa contribuir para interpretações sobre a movimentação no Twitter dos possíveis candidatos nas eleições de 2022, bem como sobre o que se fala a seu respeito nas interações dos usuários da plataforma na primeira quinzena do mês de maio. Esse é um trabalho de pesquisa em andamento e será aperfeiçoado no transcorrer dos meses até a eleição de 2022.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
@@ -2051,12 +1670,7 @@ function init_posts_list() {
 <div class="appendix-bottom"></div>
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
-<div class="distill-site-nav distill-site-footer">
-<p>Blog elaborado em <a href="https://www.rstudio.com"><strong>Rstudio</strong></a> utilizando os pacotes <a href="https://rstudio.github.io/distill/"><strong>distill</strong></a>, <a href="https://rmarkdown.rstudio.com"><strong>Rmarkdown</strong></a> e <a href="https://github.com/gadenbuie/xaringanExtra"><strong>xaringanExtra</strong></a>.</p>
-<p>© Copyright 2022</p>
-</div>
 <!--/radix_placeholder_navigation_after_body-->
-
 
 </body>
 
