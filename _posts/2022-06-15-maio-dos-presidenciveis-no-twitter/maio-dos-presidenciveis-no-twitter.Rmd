@@ -273,7 +273,7 @@ knitr::include_graphics("Ciro_sentimentos.png")
 Bigramas são pares de palavras que aparecem conjuntamente ao longo dos tuítes.
 </aside>
 
-Os 25 bigramas mais frequentes nos tuítes mencionando cada um dos candidatos são apresentados nas Figuras 13 – 15. A direção da zeta revela a ordem em que o bigrama aparece e quanto maior a intensidade da zeta, maior a frequência do bigrama.
+Os 25 bigramas mais frequentes nos tuítes mencionando cada um dos candidatos são apresentados nas Figuras 13 – 15. A direção da seta revela a ordem em que o bigrama aparece e quanto maior a intensidade da seta, maior a frequência do bigrama.
 
 
 
