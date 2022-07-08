@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = FALSE)
  
 O `Twitter Político` é um projeto acadêmico do grupo de pesquisa [**BDAQ (Big Data e Análise Quantitativa)**](http://dgp.cnpq.br/dgp/espelhogrupo/764775) que reune os projetos de pesquisa "Organizações da Tecnopolítica no Twitter" (UFRJ) e "Eleições presidenciais 2022 no Twitter" (UFRJ e PUC-RJ).
 
-O projeto é liderado pelo Prof. Marcelo Castañeda (UFRJ) e conta com a colaboração dos professores Alessandra Maia (PUC-RJ) e Carlos Trucíos (UFRJ). O projeto também conta com a participação de diversos alunos de graduação.
+O projeto é liderado pelo Prof. Marcelo Castañeda (UFRJ) e conta com a colaboração dos professores Alessandra Maia (PUC-RJ) e Carlos Trucíos (UNICAMP). 
 
 Através dos tuites dos candidatos à corrida presidencial brasileira e dos usuários do Twitter, utilizamos ferramentas de mineração de texto para entender o que os presidenciáveis tuitam e o que é tuitado sobre eles.
 
@@ -27,21 +27,5 @@ Através dos tuites dos candidatos à corrida presidencial brasileira e dos usu�
 
 - **Prof. Marcelo Castañeda (UFRJ):** Sociólogo, Professor de Estudos Organizacionais, Departamento de Administração, UFRJ
 - **Profa. Alessandra Maia (PUC-RJ):**  Doutora em Ciências Sociais e Professora de Ciência Política no Departamento de Ciências Sociais da Puc-Rio e no PPGCS da UFRRJ.
-- **Prof. Carlos Trucíos (UFRJ):** Doutor em Estatística pela UNICAMP, Professor de Métodos Quantitivos no Departamento de Administração, UFRJ. 
-
-## Alunos
-
--
--
--
--
--
--
--
--
-
-
-
-
-
+- **Prof. Carlos Trucíos (UNICAMP):** Doutor em Estatística, Professor de Estatística no Departamento de Estatística da UNICAMP. 
 
