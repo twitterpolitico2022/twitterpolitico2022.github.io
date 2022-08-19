@@ -7,7 +7,18 @@
     <description>Um blog para acompanhar o cenário político brasileiro nas eleições presidenciais 2022 através do twitter e da análise de dados.
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Tue, 19 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Julho dos presidenciáveis no Twitter</title>
+      <dc:creator>Marcelo Castañeda</dc:creator>
+      <dc:creator>Alessandra Maia</dc:creator>
+      <dc:creator>Carlos Trucíos</dc:creator>
+      <link>https://twitterpolitico2022.github.io/posts/2022-08-19-julho-dos-presidenciveis-no-twitter</link>
+      <description>Saiba o que tuitam e como são tuitados os presidenciáveis.</description>
+      <guid>https://twitterpolitico2022.github.io/posts/2022-08-19-julho-dos-presidenciveis-no-twitter</guid>
+      <pubDate>Fri, 19 Aug 2022 00:00:00 +0000</pubDate>
+      <media:content url="https://twitterpolitico2022.github.io/posts/2022-08-19-julho-dos-presidenciveis-no-twitter/Bolsonaro_sentimentos.png" medium="image" type="image/png" width="1096" height="718"/>
+    </item>
     <item>
       <title>Junho dos presidenciáveis no Twitter</title>
       <dc:creator>Marcelo Castañeda</dc:creator>
