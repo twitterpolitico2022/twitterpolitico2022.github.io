@@ -1,0 +1,293 @@
+---
+title: "Setembro dos presidenciáveis no Twitter"
+description: |
+  Saiba o que tuitam e como são tuitados os presidenciáveis. 
+author:
+  - name: Marcelo Castañeda
+    url: https://twitter.com/celocastaneda
+    affiliation: Universidade Federal do Rio de Janeiro
+  - name: Alessandra Maia
+    url: https://twitter.com/amaiatfaria
+    affiliation: Pontifícia Universidade Católica do Rio de Janeiro
+  - name: Carlos Trucíos
+    url: https://ctruciosm.github.io/
+    affiliation: Universidade Estadual de Campinas
+date: 2022-11-29
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+
+
+
+
+## Como os dados foram extraídos
+
+Para cada candidato, foram coletados tuítes referentes a cada um dos 30 dias do mês de setembro, totalizando mais de 34.5 milhões de tuítes, o maior volume mensal obtido desde o início da pesquisa. Os dados foram extraídos através de uma API do twitter utilizada exclusivamente para fins acadêmicos e analisados utilizando o software R. 
+
+
+<aside>
+Os autores agradecem ao Twitter pelas contas acadêmicas a eles concedidas.
+</aside>
+
+
+## Número de seguidores
+
+A seguir, apresentamos o número atualizado (setembro em relação a agosto, dados de 29 de novembro de 2022) de seguidores no Twitter de cada um dos candidatos.
+
+- **Bolsonaro** - de 9,2 milhões para 10,5 milhões (acréscimo de aproximadamente 14 % de seguidores em relação ao mês anterior)
+- **Lula** - de  4,8 milhões para 6,3 milhões (acréscimo de aproximadamente  de 31% seguidores em relação ao mês anterior)
+- **Ciro** -  de 1,5 milhões para 1,6 milhões (acréscimo de aproximadamente 6%  de seguidores em relação ao mês anterior)
+
+
+
+## Tuítes dos candidatos
+
+Na Figura 1 abaixo, apresentamos um gráfico com o número de tuítes da timeline dos candidatos, dentre os três que fazem parte de nosso levantamento: Lula, Ciro e Bolsonaro, de acordo com a frequência com que os candidatos tuitaram no mês de agosto.
+
+
+<center>
+```{r echo = FALSE, out.width = "85%", fig.cap = "Número de tuítes na timeline dos candidatos"}
+knitr::include_graphics("Tweets_per_candidato_Setembro_.png")
+```
+</center>
+
+
+Continando com o comportamento do mês anterior, Ciro Gomes foi quem mais se posicionou na rede social, seguido pelos candidatos Lula da Silva e Jair Bolsonaro, respectivamente. Em geral, os três candidatos aumentaram o número de interações.
+
+As Figuras 2 e 3 apresentam as palavras mais frequentes nos tuítes da timeline dos candidatos, e as palavras mais frequentes nos tuítes da timeline dos candidatos que não foram tão frequentes nos tuítes da timeline dos outros candidatos, respectivamente.
+
+
+
+
+<center>
+```{r echo = FALSE, out.width = "100%", fig.cap = "Palavras mais frequentes na timeline dos candidatos"}
+knitr::include_graphics("Most_Frequent_Words_Timeline_Setembro.png")
+```
+</center>
+
+
+
+A análise das palavras mais frequentes nos tuítes da timeline dos candidatos (Figura 2) nos permite apresentar um panorama dominante dos assuntos por eles tratados. Em comum nos três perfis encontramos os termos “povo” e “Brasil”, a novidade é a palavra “povo” que retorna como termo compartilhado. A palavra “hoje” continua frequente para Lula e Ciro. E agora a palavra “anos” é uma interseção entre o perfil de Ciro e o de Bolsonaro. No perfil de Bolsonaro isoladamente, aparecem os termos “governo”, “país” e “todos”, e se manteve a menção a valores em reais (“r”) e “2022”, agora com o número “9“, em provável referência ao mês corrente.   No perfil de Lula isoladamente, o destaque para os verbos “fazer” e “ter”, o nome “Lula” e os substantivos “país”, “dia”, “hoje”, “governo” e o conectivo “porque”, o que denota uma continuidade do caráter propositivo encontrado até agosto, com a novidade do termo “porque”, que traz ênfase à explicação. No perfil de Ciro, se mantém a preocupação em mencionar nominalmente os outros dois candidatos, bem como a si mesmo, como observado desde abril. É possível destacar no consolidado do mês setembro, as menções aos termos “sobre”, “programa”, “vivo” e “anos”. 
+
+
+
+
+
+<center>
+```{r echo = FALSE, out.width = "100%", fig.cap = "TF-IDF da timeline dos candidados"}
+knitr::include_graphics("TF_IDF_timelines_Setembro.png")
+```
+</center>
+
+Na Figura 3, TF-IDF (term frequency-inverse document frequency) reflete a frequência das palavras nos tuites da timeline dos candidatos, que não são tão frequentes para os três candidatos em geral. Assim:
+
+- No perfil de Lula, a novidade em setembro está nos verbos “recuperar”, “reconstruir”, “comer”, “quero” e “viver”, os substantivos “desenho”, “Maranhão” e “inclusão” e o adjetivo “bom” e a letra “L” muito provavelmente pela expressividade do slogan “Faz o L!” de sua campanha nas redes . 
+- O perfil de Bolsonaro apresenta novidades. Os termos que aparecem são “construção”, “títulos”, “pavimentação”, “venda”, “Embrapii”, “ponte”, “diesel”, adequação, “km”, “br”, “2019”, “2022” e “kg”.  
+- No perfil de Ciro se mantém as menções às palavras “Ciro” e “giro”. Os novos termos foram “perca”, “vivo”, “corrupto,“veja”, “candidato”, “mínima”, e os números “12” e “2022”..
+
+
+
+
+## Tuítes sobre os candidatos
+
+
+Na sequência, na Figura 4, apresentamos em ordem decrescente (do mais citado ao menos citado), o total de tuítes que mencionaram o nome de cada candidato pesquisado no mês de setembro: Bolsonaro, Lula e Ciro.
+
+
+<aside>
+Para coletar os tuites mencionando os respectivos candidatos, foram utilizados como critério de busca as palavras "Bolsonaro", "Ciro" e "Lula". Tuítes mencionando "Ciro Nogueira" foram excluidos das análises referentes ao candidato Ciro.
+</aside>
+
+<center>
+```{r echo = FALSE, out.width = "85%", fig.cap = "Total de tuítes sobre os candidatos"}
+knitr::include_graphics("Tweets_candidatos_setembro.png")
+```
+</center>
+
+
+O volume de tuítes acerca dos candidatos continua na mesma ordem observada nos meses anteriores: Bolsonaro, Lula e, por último, Ciro. Os três candidatos evidenciam um aumento expressivo no volume de iterações dos usuários mencionando cada um deles. Contudo, o aumento é inferior ao observado no mês anterior.
+
+- A quantidade de tuítes mencionando Bolsonaro foi de 13.455.826 para 16.784.820 representando um aumento de 24.7% a respeito do mês anterior (inferior ao 61% observado no mês anterior).
+- A quantidade de tuítes mencionando Lula foi de 10.189.718 para 13.899.696, representando um aumento de  36% a respeito do mês anterior (inferior ao 79% observado no mês anterior)
+- Por último, a quantidade de tuítes mencionando Ciro foi de 2.447.570 para 3.967.878, representando um aumento de 62% a respeito do mês anterior (inferior ao 237% observado no mês anterior).
+
+A evolução diária dos tuítes mencionando cada candidato apresenta-se na Figura 5. O maior destaque observa-se na acirrada quantidade de tuítes, principalmente, ao final do período, entre os candidatos Jair Bolsonaro e Lula da Silva, o que converge com o acirramento da disputa na campanha eleitoral do país, em torno dos dois candidatos.
+
+
+
+
+<center>
+```{r echo = FALSE, out.width = "85%", fig.cap = "Evolução diária da quantitate de tuítes sobre os candidatos"}
+knitr::include_graphics("evolucao_tweets_candidatos_setembro.png")
+```
+</center>
+
+
+### Nuvem de palavras
+
+
+<aside>
+Uma nuvem de palavras é uma representação gráfica das palavras mais frequentes dentro de um texto ou conjunto de textos. 
+</aside>
+
+
+
+Uma nuvem de palavras é uma representação gráfica das palavras mais frequentes dentro de um texto ou conjunto de textos.
+
+A seguir, apresentamos três nuvens de palavras, onde cada uma corresponde a um candidato. É importante sinalizar que o nome de cada candidato foi retirado da sua própria nuvem, para melhor visualização das palavras associadas. Cabe ressaltar também, que cada nuvem reflete as 100 palavras mais relevantes associadas, excluídas stop words, a cada candidato nas interações dos usuários do Twitter nos trinta e um dias do mês de agosto.
+
+
+
+_Clique no nome do candidato para ver a respectiva nuvem de palavras._
+
+<aside>
+Em análise de texto, _stop words_ são palavras bastante comuns tais como "e", "de", "o", etc. Essas palavras não são úteis para as análises e costumam ser removidas antes das análises.
+</aside>
+
+
+
+
+```{r panelset, layout='l-page', echo=FALSE}
+xaringanExtra::use_panelset()
+xaringanExtra::style_panelset_tabs(foreground = "honeydew", background = "#0F2E3D")
+```
+
+::::: {.panelset}
+
+::: {.panel}
+
+#### Bolsonaro {.panel-name}
+
+<center>
+```{r echo = FALSE, out.width = "70%", fig.cap = "Nuvem de Palavras do Bolsonaro"}
+knitr::include_graphics("Bolsonaro_wordcloud.png")
+```
+</center>
+
+:::
+
+::: {.panel}
+
+#### Lula {.panel-name}
+
+<center>
+```{r echo = FALSE, out.width = "90%", fig.cap = "Nuvem de Palavras do Lula"}
+knitr::include_graphics("Lula_wordcloud.png")
+```
+</center>
+
+:::
+
+::: {.panel}
+
+#### Ciro {.panel-name}
+
+<center>
+```{r echo = FALSE, out.width = "80%", fig.cap = "Nuvem de Palavras do Ciro"}
+knitr::include_graphics("Ciro_wordcloud.png")
+```
+</center>
+
+:::
+
+:::::
+
+
+
+Ao analisar as nuvens, compartilhamos a primeira impressão de cada uma:
+
+- Bolsonaro: em primeiro plano aparece “Lula” e “presidente”. Em segundo plano, temos as palavras “Brasil”, “turno”, “governo”, “contra”, “sobre”, “Ciro”, “TSE”, “22”, “campanha” e “agora”.
+- Lula: em primeiro plano vemos “Bolsonaro”. Em segundo plano, pelas palavras “presidente”, “turno”, “Ciro”, “voto”, “votar”, “PT”, “primeiro” e “Brasil”.
+- Ciro: em primeiro plano Lula e Bolsonaro, mantendo a tendência dos últimos meses. Já em segundo plano aparece  “turno”, “votar”, “voto”, “presidente” e “Tebet” ( a última em menção à também candidata pelo MDB, Simone Tebet, que se manteve em relação ao encontrado em agosto).
+
+
+### Análise de sentimentos
+
+
+O sentimento de cada tuíte foi construído através da identificação dos sentimentos das unidades básicas (as palavras) utilizando os dicionários oplexicon v3.0 e sentilex, do pacote lexiconPT. Assim, cada palavra encontrada nos dicionários recebe a nota 1, -1 ou 0, a depender de se o sentimento for positivo, negativo ou neutro, respectivamente. Palavras não encontradas nos dicionários recebem também nota 0. Os valores atribuídos a cada palavra dentro do tuíte foram somados, e a depender do resultado positivo, negativo ou zero, o sentimento do tuíte é classificado como positivo, negativo ou neutro. Na Figura 9 são apresentados os sentimentos (Negativo, Neutro e Positivo) percentualmente por candidato. Esse é um retrato, um instantâneo sentimental no mês de agosto e pode-se observar que, proporcional ao número de tuítes mencionando cada candidato.
+
+O candidato Lula obteve a maior porcentagem  de tuítes com sentimento negativo (32.57%) e o candidato Bolsonaro a maior porcentagem de tuites com sentimento positivo (29.30%). O candidato Ciro apresenta a maior porcentagem de tuites neutros (39.74%). 
+
+
+
+
+<center>
+```{r echo = FALSE, out.width = "85%", fig.cap = "Sentimentos dos tuítes por candidato"}
+knitr::include_graphics("Tweets_sentimentos_candidatos_setembro.png")
+```
+</center>
+
+
+
+A seguir, é possível observar a nuvem de palavras de cada um dos candidatos, apresentadas em separado, segundo os sentimentos atribuídos a cada tuíte. Palavras em rosa aparecem nos tuítes classificados como associados a sentimentos positivos, palavras em azul aparecem nos tuítes classificados como associados a sentimentos negativos, e palavras em bege aparecem nos tuítes classificados como neutros.
+
+<aside>
+As nuvens de palavras com sentimentos consideram as 200 palavras mais frequentes.
+</aside>
+
+
+
+
+::::: {.panelset}
+
+::: {.panel}
+
+#### Bolsonaro {.panel-name}
+
+<center>
+```{r echo = FALSE, out.width = "100%", fig.cap = "Nuvem de Palavras do Bolsonaro com sentimentos."}
+knitr::include_graphics("Bolsonaro_sentimentos.png")
+```
+</center>
+
+:::
+
+::: {.panel}
+
+#### Lula {.panel-name}
+
+<center>
+```{r echo = FALSE, out.width = "100%", , fig.cap = "Nuvem de Palavras do Lula com sentimentos."}
+knitr::include_graphics("Lula_sentimentos.png")
+```
+</center>
+
+:::
+
+::: {.panel}
+
+#### Ciro {.panel-name}
+
+<center>
+```{r echo = FALSE, out.width = "100%", fig.cap = "Nuvem de Palavras do Ciro com sentimentos."}
+knitr::include_graphics("Ciro_sentimentos.png")
+```
+</center>
+
+:::
+
+:::::
+
+
+- **Bolsonaro:** Os tuítes relacionados ao candidato Bolsonaro que foram classificados como associados a sentimentos positivos estão caracterizados por palavras como “dinheiro”, “vivo”, “reeleito”, “Brasil”, “verdade”  e “melhor”. Já os tuítes classificados como associados a sentimentos negativos são caracterizados por palavras como “votar”, seguido por “corrupção”, “votar”, “cara”, “vergonha”  e “presidiário”. Por último, tuítes considerados neutros trazem em destaque “presidente”, “22” e “Lula”.
+- **Lula:** Os tuítes relacionados ao candidato Lula que foram classificados como associados a sentimentos positivos estão caracterizados por palavras como “votos”, “válidos”, “vitória”, “bom”, “mundo” e “novo”.  Já os tuítes classificados como negativos estão caracterizados por “votar”, seguido de “corrupção”, “preso”, “cara” e “presidiário”. Por último, os tuítes com sentimento neutro estão caracterizados principalmente pelos termos “Bolsonaro” e “presidente”, seguido por “turno”, “13” e “primeiro”.
+- **Ciro:** Os tuítes relacionados ao candidato Ciro que foram classificados como associados a sentimentos positivos estão caracterizados por palavras como “voto”, “útil”, “melhor”, “sabe”, “votar”, “mundo” e “verdade”. Já os tuítes classificados como negativos estão caracterizados por palavras como “votar”, “vou” e “cara”. Por último, os tuítes com sentimento neutro estão caracterizados por palavras como “Bolsonaro”, “Lula”.
+
+
+
+## Comentários finais
+
+A apresentação desse conjunto de dados visa contribuir para interpretações sobre a movimentação no Twitter dos principais candidatos segundo as pesquisas de intenção de voto nas eleições de 2022, bem como sobre o que se fala a seu respeito nas interações dos usuários da plataforma ao longo do mês de setembro. Esse é um trabalho de pesquisa em andamento e será aperfeiçoado no transcorrer dos meses até a eleição de 2022.
+
+Aqui você pode ler na íntegra as análises dos meses de  [abril](https://twitterpolitico2022.github.io/posts/2022-05-02-abril-dos-presidenciveis-no-twitter/),  [maio](https://twitterpolitico2022.github.io/posts/2022-06-15-maio-dos-presidenciveis-no-twitter/), [junho](https://twitterpolitico2022.github.io/posts/2022-07-19-junho-dos-presidenciveis-no-twitter/), [julho](https://twitterpolitico2022.github.io/posts/2022-08-19-julho-dos-presidenciveis-no-twitter/) e
+[agosto.](https://twitterpolitico2022.github.io/posts/2022-10-11-agosto-dos-presidenciveis-no-twitter/)
+
+> Pesquisadores(as) do [IPPUR/UFRJ](https://ippur.ufrj.br/) tem um boletim sobre política nas redes [aqui.](https://politicanasredes.com/)
+
+
+
+
+
