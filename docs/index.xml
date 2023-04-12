@@ -7,7 +7,18 @@
     <description>Um blog para acompanhar o cenário político brasileiro nas eleições presidenciais 2022 através do twitter e da análise de dados.
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Tue, 29 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Outubro dos presidenciáveis no Twitter</title>
+      <dc:creator>Marcelo Castañeda</dc:creator>
+      <dc:creator>Alessandra Maia</dc:creator>
+      <dc:creator>Carlos Trucíos</dc:creator>
+      <link>https://twitterpolitico2022.github.io/posts/2023-04-12-outubro-dos-presidenciveis-no-twitter</link>
+      <description>Saiba o que tuitam e como são tuitados os presidenciáveis.</description>
+      <guid>https://twitterpolitico2022.github.io/posts/2023-04-12-outubro-dos-presidenciveis-no-twitter</guid>
+      <pubDate>Wed, 12 Apr 2023 00:00:00 +0000</pubDate>
+      <media:content url="https://twitterpolitico2022.github.io/posts/2023-04-12-outubro-dos-presidenciveis-no-twitter/Tweets_per_candidato_Outubro_.png" medium="image" type="image/png" width="950" height="500"/>
+    </item>
     <item>
       <title>Setembro dos presidenciáveis no Twitter</title>
       <dc:creator>Marcelo Castañeda</dc:creator>

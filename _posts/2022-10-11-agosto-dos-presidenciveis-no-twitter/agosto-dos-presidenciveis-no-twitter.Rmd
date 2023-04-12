@@ -26,8 +26,7 @@ preview: evolucao_tweets_candidatos_agosto.png
 
 ## Como os dados foram extraídos
 
-Para cada candidato, foram coletados tuítes referentes a cada um dos 31 dias do mês de agosto, totalizando mais de 26 milhões de tuítes, o maior volume mensal obtido desde o início da pesquisa. Este aumento coincide com o início do período da propaganda eleitoral, ocorrido no dia 16 de agosto de 2022. Os dados foram extraídos através de uma API do twitter utilizada exclusivamente para fins acadêmicos e analisados utilizando o software R.
-
+Para cada candidato, foram coletados tuítes referentes a cada um dos 30 dias do mês de setembro, totalizando mais de 34.5 milhões de tuítes, o maior volume mensal obtido desde o início da pesquisa. Os dados foram extraídos através de uma API do twitter utilizada exclusivamente para fins acadêmicos e analisados utilizando o software R. 
 
 
 <aside>
@@ -36,11 +35,12 @@ Os autores agradecem ao Twitter pelas contas acadêmicas a eles concedidas.
 
 ## Número de seguidores
 
-A seguir, apresentamos o número atualizado (agosto em relação a julho, dados de 11 de outubro de 2022) de seguidores no Twitter de cada um dos candidatos.
+A seguir, apresentamos o número atualizado (setembro em relação a agosto, dados de 29 de novembro de 2022) de seguidores no Twitter de cada um dos candidatos.
 
-- **Bolsonaro** - de 8,6 milhões para 9,2 milhões (acréscimo de aproximadamente 7% de seguidores em relação ao mês anterior)
-- **Lula** - de  4 milhões para 4,8 milhões (acréscimo de aproximadamente 20% de seguidores em relação ao mês anterior)
-- **Ciro** -  de 1,4 milhões para 1,5 milhões (acréscimo de aproximadamente 7% de seguidores em relação ao mês anterior)
+- **Bolsonaro** - de 9,2 milhões para 10,5 milhões (acréscimo de aproximadamente 14 % de seguidores em relação ao mês anterior).
+- **Lula** - de  4,8 milhões para 6,3 milhões (acréscimo de aproximadamente  de 31% seguidores em relação ao mês anterior).
+- **Ciro** -  de 1,5 milhões para 1,6 milhões (acréscimo de aproximadamente 6%  de seguidores em relação ao mês anterior).
+
 
 
 ## Tuítes dos candidatos
@@ -51,12 +51,12 @@ Na Figura 1 abaixo, apresentamos um gráfico com o número de tuítes da timelin
 
 <center>
 ```{r echo = FALSE, out.width = "85%", fig.cap = "Número de tuítes na timeline dos candidatos"}
-knitr::include_graphics("Tweets_per_candidato_Agosto_.png")
+knitr::include_graphics("Tweets_per_candidato_Setembro_.png")
 ```
 </center>
 
-Diferente dos meses de junho e julho, em que o candidato Lula era quem mais tuitava na própria timeline,  o mês de agosto evidencia uma maior interação do candidato Ciro Gomes na rede social. Já o candidato Jair Bolsonaro, continua sendo o que menos tuita na própria timeline, um fenômeno observado desde o início da nossa pesquisa.
 
+Continando com o comportamento do mês anterior, Ciro Gomes foi quem mais se posicionou na rede social, seguido pelos candidatos Lula da Silva e Jair Bolsonaro, respectivamente. Em geral, os três candidatos aumentaram o número de interações.
 
 
 As Figuras 2 e 3 apresentam as palavras mais frequentes nos tuítes da timeline dos candidatos, e as palavras mais frequentes nos tuítes da timeline dos candidatos que não foram tão frequentes nos tuítes da timeline dos outros candidatos, respectivamente.
@@ -66,34 +66,34 @@ As Figuras 2 e 3 apresentam as palavras mais frequentes nos tuítes da timeline 
 
 <center>
 ```{r echo = FALSE, out.width = "100%", fig.cap = "Palavras mais frequentes na timeline dos candidatos"}
-knitr::include_graphics("Most_Frequent_Words_Timeline_Agosto.png")
+knitr::include_graphics("Most_Frequent_Words_Timeline_Setembro.png")
 ```
 </center>
 
-A análise das palavras mais frequentes nos tuítes da timeline dos candidatos (Figura 2) nos permite apresentar um panorama dominante dos assuntos por eles tratados. Em comum nos três perfis encontramos os termos “hoje” e “Brasil”, no caso do segundo, mantendo o padrão encontrado até julho. A diferença surgiu na menção à palavra “hoje” pelos três, além da mudança em relação ao termo “povo”, antes mencionado frequentemente nos três perfis. Embora o termo “povo” tenha destaque em Lula e Ciro, ele é mais frequente no perfil de Lula do que no segundo, e não aparece mais no perfil de Bolsonaro, onde se destaca o termo “todos”. Nos perfis de Lula e Ciro, em comum os termos “Lula”, “hoje” e “gente”.  No perfil de Lula isoladamente, o destaque para os verbos “fazer” e “voltar” e os substantivos “dia” e “vida”, o que denota uma continuidade do caráter propositivo encontrado até julho, com a novidade do termo “vida”, que traz ênfase à construção propositiva. No perfil de Ciro, se mantém a preocupação em mencionar nominalmente os outros dois candidatos, como observado desde abril. É possível destacar no consolidado do mês de agosto, as menções aos termos “renda”, “programa” e “brasileiros”. Por fim, no perfil de Bolsonaro é possível identificar que se mantém a menção a valores em reais (“r” ), “2022”, “08” e “redução”, o que se consolida no sentido das menções observadas do termo “impostos”, novidade em relação ao mês de julho, que confirma nossa intuição do mês anterior de que a redução se referiu ao tema.
+A análise das palavras mais frequentes nos tuítes da timeline dos candidatos (Figura 2) nos permite apresentar um panorama dominante dos assuntos por eles tratados. Em comum nos três perfis encontramos os termos “povo” e “Brasil”, a novidade é a palavra “povo” que retorna como termo compartilhado. A palavra “hoje” continua frequente para Lula e Ciro. E agora a palavra “anos” é uma interseção entre o perfil de Ciro e o de Bolsonaro. No perfil de Bolsonaro isoladamente, aparecem os termos “governo”, “país” e “todos”, e se manteve a menção a valores em reais (“r”) e “2022”, agora com o número “9“, em provável referência ao mês corrente.   No perfil de Lula isoladamente, o destaque para os verbos “fazer” e “ter”, o nome “Lula” e os substantivos “país”, “dia”, “hoje”, “governo” e o conectivo “porque”, o que denota uma continuidade do caráter propositivo encontrado até agosto, com a novidade do termo “porque”, que traz ênfase à explicação. No perfil de Ciro, se mantém a preocupação em mencionar nominalmente os outros dois candidatos, bem como a si mesmo, como observado desde abril. É possível destacar no consolidado do mês setembro, as menções aos termos “sobre”, “programa”, “vivo” e “anos”. 
+
 
 
 
 <center>
 ```{r echo = FALSE, out.width = "100%", fig.cap = "TF-IDF da timeline dos candidados"}
-knitr::include_graphics("TF_IDF_timelines_Agosto.png")
+knitr::include_graphics("TF_IDF_timelines_Setembro.png")
 ```
 </center>
 
 Na Figura 3, TF-IDF (term frequency-inverse document frequency) reflete a frequência das palavras nos tuites da timeline dos candidatos, que não são tão frequentes para os três candidatos em geral. Assim:
 
-- No perfil de Lula, a novidade em julho está nos termos “gente”, “voltar”, “quero”, “Manaus”, “campanha” e “Campina” ( Manaus e Campina são regiões que receberam  visita do candidato em campanha). A ênfase que se manteve em relação a junho e julho foi o tema da “fome”, “reconstruir”e o “juntos” . 
-- O perfil de Bolsonaro repete os termos “redução” e “drogas”, em relação ao encontrado em julho. A novidade aparece nos termos “Jair”, “itens”, “após”, “saneamento”, “mídia”, “ditaduras”, “ton”, “litro” ( da gasolina)  e “academia”.  
-- No perfil de Ciro se mantém as menções às palavras “Ciro” e “giro”. As demais que surgiram em agosto foram “mínima”, “gente”, “Suplicy”, “adm”, “Paula”, “Ana”, “ 1.000” e “debates” ( A menção à Ana Paula Matos se refere à vice em sua chapa).
 
+- No perfil de Lula, a novidade em setembro está nos verbos “recuperar”, “reconstruir”, “comer”, “quero” e “viver”, os substantivos “desenho”, “Maranhão” e “inclusão” e o adjetivo “bom” e a letra “L” muito provavelmente pela expressividade do slogan “Faz o L!” de sua campanha nas redes . 
+- O perfil de Bolsonaro apresenta novidades. Os termos que aparecem são “construção”, “títulos”, “pavimentação”, “venda”, “Embrapii”, “ponte”, “diesel”, adequação, “km”, “br”, “2019”, “2022” e “kg”.  
+- No perfil de Ciro se mantém as menções às palavras “Ciro” e “giro”. Os novos termos foram “perca”, “vivo”, “corrupto,“veja”, “candidato”, “mínima”, e os números “12” e “2022”..
 
 
 
 ## Tuítes sobre os candidatos
 
 
-Na sequência, na Figura 4, apresentamos em ordem decrescente (do mais citado ao menos citado), o total de tuítes que mencionaram o nome de cada candidato pesquisado no mês de julho: Bolsonaro, Lula e Ciro.
-
+Na sequência, na Figura 4, apresentamos em ordem decrescente (do mais citado ao menos citado), o total de tuítes que mencionaram o nome de cada candidato pesquisado no mês de setembro: Bolsonaro, Lula e Ciro.
 
 
 <aside>
@@ -102,31 +102,26 @@ Para coletar os tuites mencionando os respectivos candidatos, foram utilizados c
 
 <center>
 ```{r echo = FALSE, out.width = "85%", fig.cap = "Total de tuítes sobre os candidatos"}
-knitr::include_graphics("Tweets_candidatos_agosto.png")
+knitr::include_graphics("Tweets_candidatos_setembro.png")
 ```
 </center>
 
 
-O volume de tuítes acerca dos candidatos continua na mesma ordem observada nos meses anteriores: Bolsonaro, Lula e, por último, Ciro. Contudo, o aumento no volume de interações dos usuários mencionando cada um dos candidatos incrementou expressivamente em todos os casos: 
+O volume de tuítes acerca dos candidatos continua na mesma ordem observada nos meses anteriores: Bolsonaro, Lula e, por último, Ciro. Os três candidatos evidenciam um aumento expressivo no volume de iterações dos usuários mencionando cada um deles. Contudo, o aumento é inferior ao observado no mês anterior.
 
-- A quantidade de tuítes mencionando Bolsonaro foi de 8.351.515 para 13.455.826, representando um aumento de 61% a respeito do mês anterior.
-- A quantidade de tuítes mencionando Lula foi de 5.663.521 para 10.189.718, representando um aumento de 79% a respeito do mês anterior.
-- Por último, a quantidade de tuítes mencionando Ciro foi de 726.072 para 2.447.570, representando um aumento de  237% a respeito do mês anterior.
-
-
-
-A evolução diária dos tuítes mencionando cada candidato apresenta-se na Figura 5. Entre os maiores destaques, observa-se o aumento expressivo do Ciro Gomes na última semana de agosto.  Outro destaque é o aumento expressivo na quantidade de tuítes envolvendo o candidato Lula, chegando a ultrapassar, e por muito, a quantidade de tuítes mencionando o candidato Bolsonaro nos dias 25 e 26 de agosto. Estes dias correspondem ao dia da entrevista do candidato no Jornal Nacional, da Rede Globo de Televisão. 
-
-O primeiro pico observado na evolução diária dos tuítes mencionando Bolsonaro foi no dia 22 de agosto, dia em que o candidato participou da entrevista no Jornal Nacional.
-Por último, o aumento de tuítes mencionando os três candidatos ocorrido no dia 28 de agosto deve-se ao debate presidencial transmitido pela Rede Bandeirantes de Televisão. 
+- A quantidade de tuítes mencionando Bolsonaro foi de 13.455.826 para 16.784.820 representando um aumento de 24.7% a respeito do mês anterior (inferior ao 61% observado no mês anterior).
+- A quantidade de tuítes mencionando Lula foi de 10.189.718 para 13.899.696, representando um aumento de  36% a respeito do mês anterior (inferior ao 79% observado no mês anterior)
+- Por último, a quantidade de tuítes mencionando Ciro foi de 2.447.570 para 3.967.878, representando um aumento de 62% a respeito do mês anterior (inferior ao 237% observado no mês anterior).
 
 
- 
+
+A evolução diária dos tuítes mencionando cada candidato apresenta-se na Figura 5. O maior destaque observa-se na acirrada quantidade de tuítes, principalmente, ao final do período, entre os candidatos Jair Bolsonaro e Lula da Silva, o que converge com o acirramento da disputa na campanha eleitoral do país, em torno dos dois candidatos.
+
 
 
 <center>
 ```{r echo = FALSE, out.width = "85%", fig.cap = "Evolução diária da quantitate de tuítes sobre os candidatos"}
-knitr::include_graphics("evolucao_tweets_candidatos_agosto.png")
+knitr::include_graphics("evolucao_tweets_candidatos_setembro.png")
 ```
 </center>
 
